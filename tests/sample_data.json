@@ -1,0 +1,328 @@
+{
+  "_synthetic": true,
+  "now": "2026-10-21T15:00:00+00:00",
+  "trends": [
+    {
+      "title": "namuna trend 1",
+      "traffic": "200+"
+    },
+    {
+      "title": "namuna trend 2",
+      "traffic": "100+"
+    }
+  ],
+  "accounts": [
+    {
+      "username": "demo_blogger_a",
+      "followers": 2000000,
+      "posts": [
+        {
+          "caption": "Yangi klip chiqdi 🔥 #premyera #uzbekistan",
+          "like_count": 42546,
+          "comments_count": 1823,
+          "timestamp": "2026-10-20T16:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_a/0"
+        },
+        {
+          "caption": "Sizga savol: qaysi biri yoqdi? #savol #fikr",
+          "like_count": 12899,
+          "comments_count": 239,
+          "timestamp": "2026-10-19T17:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_a/1"
+        },
+        {
+          "caption": "Yangi klip chiqdi 🔥 #premyera #uzbekistan",
+          "like_count": 13492,
+          "comments_count": 432,
+          "timestamp": "2026-10-18T16:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_a/2"
+        },
+        {
+          "caption": "Sizga savol: qaysi biri yoqdi? #savol #fikr",
+          "like_count": 57372,
+          "comments_count": 2748,
+          "timestamp": "2026-10-17T08:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_a/3"
+        },
+        {
+          "caption": "Kunlik hayot va kulgi 😂 #mem #kulgi",
+          "like_count": 12479,
+          "comments_count": 148,
+          "timestamp": "2026-10-16T16:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_a/4"
+        },
+        {
+          "caption": "Sizga savol: qaysi biri yoqdi? #savol #fikr",
+          "like_count": 30956,
+          "comments_count": 455,
+          "timestamp": "2026-10-16T15:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_a/4"
+        },
+        {
+          "caption": "Sizga savol: qaysi biri yoqdi? #savol #fikr",
+          "like_count": 15152,
+          "comments_count": 538,
+          "timestamp": "2026-10-15T12:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_a/5"
+        },
+        {
+          "caption": "Sizga savol: qaysi biri yoqdi? #savol #fikr",
+          "like_count": 45605,
+          "comments_count": 564,
+          "timestamp": "2026-10-14T17:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_a/6"
+        },
+        {
+          "caption": "Sahnadan lavhalar #konsert #sahna",
+          "like_count": 31379,
+          "comments_count": 898,
+          "timestamp": "2026-10-13T17:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_a/7"
+        },
+        {
+          "caption": "Kunlik hayot va kulgi 😂 #mem #kulgi",
+          "like_count": 22421,
+          "comments_count": 851,
+          "timestamp": "2026-10-12T15:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_a/8"
+        },
+        {
+          "caption": "Reaksiya video: yangi trend #reaksiya #trend",
+          "like_count": 25012,
+          "comments_count": 1125,
+          "timestamp": "2026-10-11T17:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_a/9"
+        },
+        {
+          "caption": "Konsert haqida fikrim: juda zo'r bo'ldi #konsert #fikr",
+          "like_count": 80000,
+          "comments_count": 4000,
+          "timestamp": "2026-10-20T19:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_a/shared"
+        }
+      ]
+    },
+    {
+      "username": "demo_blogger_b",
+      "followers": 800000,
+      "posts": [
+        {
+          "caption": "Yangi klip chiqdi 🔥 #premyera #uzbekistan",
+          "like_count": 16179,
+          "comments_count": 238,
+          "timestamp": "2026-10-20T15:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_b/0"
+        },
+        {
+          "caption": "Kunlik hayot va kulgi 😂 #mem #kulgi",
+          "like_count": 19142,
+          "comments_count": 906,
+          "timestamp": "2026-10-20T12:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_b/0"
+        },
+        {
+          "caption": "Sizga savol: qaysi biri yoqdi? #savol #fikr",
+          "like_count": 19291,
+          "comments_count": 801,
+          "timestamp": "2026-10-19T08:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_b/1"
+        },
+        {
+          "caption": "Sizga savol: qaysi biri yoqdi? #savol #fikr",
+          "like_count": 15887,
+          "comments_count": 665,
+          "timestamp": "2026-10-18T15:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_b/2"
+        },
+        {
+          "caption": "Yangi klip chiqdi 🔥 #premyera #uzbekistan",
+          "like_count": 13481,
+          "comments_count": 167,
+          "timestamp": "2026-10-17T15:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_b/3"
+        },
+        {
+          "caption": "Reaksiya video: yangi trend #reaksiya #trend",
+          "like_count": 23861,
+          "comments_count": 510,
+          "timestamp": "2026-10-16T17:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_b/4"
+        },
+        {
+          "caption": "Reaksiya video: yangi trend #reaksiya #trend",
+          "like_count": 4451,
+          "comments_count": 107,
+          "timestamp": "2026-10-16T15:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_b/4"
+        },
+        {
+          "caption": "Sahnadan lavhalar #konsert #sahna",
+          "like_count": 5179,
+          "comments_count": 78,
+          "timestamp": "2026-10-15T16:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_b/5"
+        },
+        {
+          "caption": "Reaksiya video: yangi trend #reaksiya #trend",
+          "like_count": 11818,
+          "comments_count": 156,
+          "timestamp": "2026-10-15T16:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_b/5"
+        },
+        {
+          "caption": "Kunlik hayot va kulgi 😂 #mem #kulgi",
+          "like_count": 9556,
+          "comments_count": 408,
+          "timestamp": "2026-10-14T17:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_b/6"
+        },
+        {
+          "caption": "Reaksiya video: yangi trend #reaksiya #trend",
+          "like_count": 23729,
+          "comments_count": 1146,
+          "timestamp": "2026-10-13T16:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_b/7"
+        },
+        {
+          "caption": "Kunlik hayot va kulgi 😂 #mem #kulgi",
+          "like_count": 7524,
+          "comments_count": 273,
+          "timestamp": "2026-10-13T08:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_b/7"
+        },
+        {
+          "caption": "Sahnadan lavhalar #konsert #sahna",
+          "like_count": 7646,
+          "comments_count": 77,
+          "timestamp": "2026-10-12T17:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_b/8"
+        },
+        {
+          "caption": "Sahnadan lavhalar #konsert #sahna",
+          "like_count": 16196,
+          "comments_count": 779,
+          "timestamp": "2026-10-11T15:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_b/9"
+        },
+        {
+          "caption": "Konsert haqida fikrim: juda zo'r bo'ldi #konsert #fikr",
+          "like_count": 32000,
+          "comments_count": 1600,
+          "timestamp": "2026-10-20T19:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_b/shared"
+        }
+      ]
+    },
+    {
+      "username": "demo_blogger_c",
+      "followers": 300000,
+      "posts": [
+        {
+          "caption": "Yangi klip chiqdi 🔥 #premyera #uzbekistan",
+          "like_count": 6412,
+          "comments_count": 181,
+          "timestamp": "2026-10-20T17:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_c/0"
+        },
+        {
+          "caption": "Reaksiya video: yangi trend #reaksiya #trend",
+          "like_count": 4442,
+          "comments_count": 114,
+          "timestamp": "2026-10-20T17:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_c/0"
+        },
+        {
+          "caption": "Yangi klip chiqdi 🔥 #premyera #uzbekistan",
+          "like_count": 1966,
+          "comments_count": 97,
+          "timestamp": "2026-10-19T16:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_c/1"
+        },
+        {
+          "caption": "Yangi klip chiqdi 🔥 #premyera #uzbekistan",
+          "like_count": 4050,
+          "comments_count": 57,
+          "timestamp": "2026-10-18T08:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_c/2"
+        },
+        {
+          "caption": "Sahnadan lavhalar #konsert #sahna",
+          "like_count": 2260,
+          "comments_count": 78,
+          "timestamp": "2026-10-17T17:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_c/3"
+        },
+        {
+          "caption": "Kunlik hayot va kulgi 😂 #mem #kulgi",
+          "like_count": 6105,
+          "comments_count": 215,
+          "timestamp": "2026-10-17T12:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_c/3"
+        },
+        {
+          "caption": "Yangi klip chiqdi 🔥 #premyera #uzbekistan",
+          "like_count": 5056,
+          "comments_count": 222,
+          "timestamp": "2026-10-16T15:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_c/4"
+        },
+        {
+          "caption": "Kunlik hayot va kulgi 😂 #mem #kulgi",
+          "like_count": 3838,
+          "comments_count": 54,
+          "timestamp": "2026-10-15T16:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_c/5"
+        },
+        {
+          "caption": "Kunlik hayot va kulgi 😂 #mem #kulgi",
+          "like_count": 7716,
+          "comments_count": 236,
+          "timestamp": "2026-10-14T16:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_c/6"
+        },
+        {
+          "caption": "Sizga savol: qaysi biri yoqdi? #savol #fikr",
+          "like_count": 2599,
+          "comments_count": 121,
+          "timestamp": "2026-10-13T15:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_c/7"
+        },
+        {
+          "caption": "Sahnadan lavhalar #konsert #sahna",
+          "like_count": 6721,
+          "comments_count": 206,
+          "timestamp": "2026-10-12T08:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_c/8"
+        },
+        {
+          "caption": "Sizga savol: qaysi biri yoqdi? #savol #fikr",
+          "like_count": 7289,
+          "comments_count": 230,
+          "timestamp": "2026-10-12T15:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_c/8"
+        },
+        {
+          "caption": "Kunlik hayot va kulgi 😂 #mem #kulgi",
+          "like_count": 6099,
+          "comments_count": 257,
+          "timestamp": "2026-10-11T12:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_c/9"
+        },
+        {
+          "caption": "Reaksiya video: yangi trend #reaksiya #trend",
+          "like_count": 2999,
+          "comments_count": 72,
+          "timestamp": "2026-10-11T12:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_c/9"
+        },
+        {
+          "caption": "Konsert haqida fikrim: juda zo'r bo'ldi #konsert #fikr",
+          "like_count": 12000,
+          "comments_count": 600,
+          "timestamp": "2026-10-20T19:00:00+0000",
+          "permalink": "https://example.com/demo_blogger_c/shared"
+        }
+      ]
+    }
+  ]
+}
