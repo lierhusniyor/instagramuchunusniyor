@@ -1,0 +1,2 @@
+# instagramuchunusniyor
+Xozircha aniq bilmayman 
