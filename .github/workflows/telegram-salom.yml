@@ -1,0 +1,25 @@
+name: Telegram salom
+
+on:
+  workflow_dispatch:
+
+jobs:
+  salom:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Telegramga salom yuborish
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_CHAT_ID" ]; then
+            echo "Secret topilmadi: TELEGRAM_BOT_TOKEN va TELEGRAM_CHAT_ID ni tekshiring."
+            exit 1
+          fi
+
+          curl --fail --silent --show-error \
+            -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
+            --data-urlencode "text=Salom! GitHub orqali ulanish ishlayapti." > /dev/null
+
+          echo "Salom yuborildi."
