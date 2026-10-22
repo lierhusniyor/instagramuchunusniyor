@@ -33,5 +33,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state/posted.json
+          [ -d state ] || exit 0
+          git add state
           git diff --cached --quiet || (git commit -m "Joylangan post holati" && git push)
