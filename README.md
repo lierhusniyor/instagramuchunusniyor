@@ -1,31 +1,43 @@
 # uz-insta-agent
 
-O'zbek Instagram bloggerlarini har kuni tahlil qilib, hisobotni Telegram yoki emailga yuboradi.
+Har kuni: navbatdagi postni Instagram'ga joylaydi, akkaunt va trendlarni tahlil qiladi, hisobotni Telegram (yoki email) ga yuboradi.
+Hammasi **Windsor.ai** orqali: Instagram Graph API, `IG_USER_ID` va Meta token kerak emas.
 
 ## Nima qiladi
-- Google Trends (ochiq RSS) orqali O'zbekistondagi kunlik trend qidiruvlarni oladi.
-- Instagram Graph API (Business Discovery) orqali `config.json` dagi akkauntlarning oxirgi postlarini oladi.
-- Tahlil qiladi: joylash soati (Toshkent vaqti), engagement, teglar, so'zlar, bir necha blogger tilga olgan mavzular.
-- Qisqa o'zbekcha hisobot yuboradi.
+- **Joylash**: `queue/posts.json` dagi navbatdagi post (rasm, karusel, reels, story) Windsor orqali joylanadi. Kuniga 1 ta.
+- **Tahlil**: o'z akkauntingiz postlari (layk, izoh, qamrov, saqlash), eng yaxshi soatlar, teglar, so'zlar.
+- **Trendlar**: Google Trends (ochiq RSS), O'zbekiston.
+- **Telegram**: joylash natijasi va hisobot botingizga keladi.
 
 ## Nima QILMAYDI (ataylab)
-- Instagram'ga login qilib skreyp qilmaydi (Instagram qoidalariga zid, akkaunt bloklanadi).
-- Business Discovery faqat ochiq Business/Creator akkauntlarni o'qiydi. Qolganlari hisobotda "o'tkazib yuborildi" deb chiqadi.
-- Boshqa akkauntlarning ko'rishlar sonini odatda ko'ra olmaydi, shuning uchun engagement = (layk + izoh) / obunachi.
+- Instagram'ga login qilib skreyp qilmaydi.
+- Boshqa bloggerlar postlarini tahlil qilmaydi: bu Graph API `IG_USER_ID` + token talab qiladi. Ro'yxat `config.json` da `watchlist` nomi bilan saqlangan, hozir ishlatilmaydi.
 - iMessage qo'llab-quvvatlanmaydi.
 
 ## Sozlash
-1. `pip install -r requirements.txt`
-2. `cp .env.example .env` va qiymatlarni to'ldiring:
-   - Telegram: @BotFather dan bot yarating, tokenni oling; botga yozing, chat id ni @userinfobot dan oling.
-   - Instagram Graph API: developers.facebook.com da ilova yarating, Business/Creator Instagram akkauntingizni ulang, `IG_USER_ID` va `IG_ACCESS_TOKEN` oling.
-3. Sinov (haqiqiy tarmoqsiz): `python tests/make_sample.py && python run_daily.py --sample`
-4. Haqiqiy ishga tushirish: `python run_daily.py` (yoki `--dry-run`, yubormasdan ko'rish uchun)
+1. windsor.ai da Instagram (Business/Creator) akkauntni ulang. Key: Settings > API Access.
+2. Telegram: @BotFather dan bot yarating, botga yozing, chat id ni @userinfobot dan oling.
+3. `pip install -r requirements.txt`, `cp .env.example .env` va to'ldiring.
+4. Sinov (tarmoqsiz): `python tests/make_sample.py && python run_daily.py --sample`
+5. Ko'rish (joylamasdan): `python run_daily.py --post --dry-run`
+6. Haqiqiy: `python run_daily.py --post`
+
+## Post navbati (`queue/posts.json`)
+```json
+[
+  {"id": "p1", "type": "image", "url": "https://.../rasm.jpg", "caption": "Kalit so'z ... savol? #teg1 #teg2", "date": "2026-10-23"},
+  {"id": "p2", "type": "reel", "url": "https://.../video.mp4", "caption": "..."},
+  {"id": "p3", "type": "carousel", "urls": ["https://.../1.jpg", "https://.../2.jpg"], "caption": "..."},
+  {"id": "p4", "type": "story", "url": "https://.../story.jpg"}
+]
+```
+- Havola **ochiq (public)** bo'lishi shart. Rasm: JPEG, <= 8 MB, nisbat 4:5 dan 1.91:1 gacha. Reels: MP4/MOV, 3 s - 15 min, 9:16.
+- `date` ixtiyoriy: shu kundan oldin joylanmaydi.
+- Joylangan postlar `state/posted.json` ga yoziladi va qayta joylanmaydi.
 
 ## Har kuni avtomatik
-GitHub Actions: `.github/workflows/daily.yml` har kuni 08:00 (Toshkent) ishga tushadi. Repo Settings, Secrets and variables, Actions bo'limiga `.env.example` dagi nomlar bilan secret qo'shing.
+`.github/workflows/daily.yml` har kuni 08:00 (Toshkent) ishlaydi. Repo Settings > Secrets and variables > Actions ga `.env.example` dagi nomlar bilan secret qo'shing (kamida `WINDSOR_API_KEY`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`).
 
 ## Holat
-- Analizator namuna ma'lumotda sinalgan (`python -m unittest discover -s tests`).
-- Graph API va Google Trends chaqiruvlari haqiqiy tarmoqda hali sinalmagan; birinchi ishga tushirishda xatolar hisobotning "Ogohlantirishlar" qismida chiqadi.
-- `graph_version` (config.json) eskirgan bo'lsa, Meta hujjatidagi joriy versiyaga o'zgartiring.
+- Tahlil va navbat mantig'i testlarda sinalgan (`python -m unittest discover -s tests`).
+- Windsor orqali o'qish (`get_data`) haqiqiy akkauntda sinalgan; joylash va Telegram yuborish haqiqiy tarmoqda hali sinalmagan. Xatolar hisobotning "Ogohlantirishlar" va "Joylash" qismida chiqadi.

@@ -1,9 +1,12 @@
-name: Kunlik Instagram tahlil
+name: Kunlik Instagram tahlil va joylash
 
 on:
   schedule:
     - cron: "0 3 * * *"   # 03:00 UTC = 08:00 Toshkent
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   run:
@@ -16,13 +19,19 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Testlar
         run: python tests/make_sample.py && python -m unittest discover -s tests
-      - name: Kunlik tahlil
-        run: python run_daily.py
+      - name: Joylash, tahlil va Telegram
+        run: python run_daily.py --post
         env:
-          IG_USER_ID: ${{ secrets.IG_USER_ID }}
-          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          WINDSOR_API_KEY: ${{ secrets.WINDSOR_API_KEY }}
+          WINDSOR_IG_ACCOUNT: ${{ secrets.WINDSOR_IG_ACCOUNT }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
+      - name: Joylangan postlar holatini saqlash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/posted.json
+          git diff --cached --quiet || (git commit -m "Joylangan post holati" && git push)

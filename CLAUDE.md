@@ -14,13 +14,14 @@
 - Natijani hech qachon kafolatlama. Qoida eskirgan yoki noto'g'ri bo'lsa, ochiq ayt.
 
 ## Texnik chegaralar
-- Instagram'ga login qilib skreyp qilma. Faqat rasmiy API va ochiq manbalar.
+- Instagram'ga login qilib skreyp qilma. Instagram bilan faqat Windsor.ai (MCP) orqali ishla; Graph API / IG_USER_ID ishlatilmaydi.
 - Sirlar (token, parol) hech qachon kodga yoki GitHub'ga yozilmaydi: faqat `.env` / GitHub Secrets.
 - Bepul rejada Claude o'zi jadval bo'yicha ishlamaydi: kunlik ishni GitHub Actions bajaradi.
 
 ## Tuzilma
-- `run_daily.py`: asosiy kirish nuqtasi (`--sample`, `--dry-run`).
-- `agent/graph_api.py`, `agent/trends.py`: ma'lumot yig'ish.
+- `run_daily.py`: asosiy kirish nuqtasi (`--sample`, `--dry-run`, `--post`).
+- `agent/windsor.py`: Windsor MCP mijozi (o'z akkaunt ma'lumoti, joylash). `agent/trends.py`: Google Trends.
+- `agent/poster.py`: `queue/posts.json` dan kunlik joylash, holat `state/posted.json`.
 - `agent/analyze.py`: tahlil. `agent/report.py`: hisobot matni. `agent/notify.py`: Telegram/email.
 - `tests/`: sinovlar va sun'iy namuna ma'lumot.
 - `reels/`: video generator (`make_reel.py`, `build_all.py`).
@@ -30,7 +31,8 @@
 2. `data/` dagi kunlik snapshotlardan haftalik trend taqqoslash.
 3. Hisobotga "bugungi reel g'oyasi" bo'limi: trend + umumiy mavzu asosida.
 4. Videolarga ovoz (TTS) va musiqa qo'shish.
-5. Instagram Graph API orqali reelni avtomatik joylash (Business akkaunt kerak).
+5. `reels/` dagi videolarni ochiq havolaga chiqarib, navbatga avtomatik qo'shish.
 
 ## O'zgarishlar jurnali
 - 2026-10-21: loyiha yaratildi, analizator namuna ma'lumotda sinaldi.
+- 2026-10-22: Graph API olib tashlandi; Windsor orqali tahlil, joylash va Telegram birlashtirildi.

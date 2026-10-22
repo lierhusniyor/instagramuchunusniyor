@@ -20,6 +20,9 @@ class AnalyzeTests(unittest.TestCase):
         self.assertEqual(parse_ts("2026-10-20T10:00:00Z").hour, 10)
         self.assertEqual(parse_ts("2026-10-20T10:00:00+05:00").hour, 10)
 
+    def test_parse_ts_naive_is_utc(self):
+        self.assertEqual(parse_ts("2026-10-20 10:00:00").utcoffset().total_seconds(), 0)
+
     def test_shared_topic_and_hours(self):
         accounts = [
             {"username": "a", "followers": 1000, "posts": [

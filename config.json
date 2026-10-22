@@ -1,21 +1,55 @@
 {
   "timezone": "Asia/Tashkent",
   "trends_geo": "UZ",
-  "posts_per_account": 25,
   "lookback_days": 14,
-  "graph_version": "v21.0",
-  "accounts": [
-    {"username": "otabek_muhammadalievich", "niche": "TV/media"},
-    {"username": "ulugbekhon", "niche": "musiqa"},
-    {"username": "munisarizaeva", "niche": "moda"},
-    {"username": "jahongir_xojayev", "niche": "aktyor/komediya"},
-    {"username": "durdona_kurbonova", "niche": "qo'shiqchi"},
-    {"username": "shaxzoda__muxammedova", "niche": "moda"},
-    {"username": "shahzodasinger", "niche": "qo'shiqchi"},
-    {"username": "ahadqayum_showman", "niche": "shou/aktyor"},
-    {"username": "asalshodieva", "niche": "raqs"},
-    {"username": "beckmirza", "niche": "komediya/mem"},
-    {"username": "javohirgroup_", "niche": "Formula 1/kontent"},
-    {"username": "mr.gapteam", "niche": "noma'lum"}
+  "watchlist": [
+    {
+      "username": "otabek_muhammadalievich",
+      "niche": "TV/media"
+    },
+    {
+      "username": "ulugbekhon",
+      "niche": "musiqa"
+    },
+    {
+      "username": "munisarizaeva",
+      "niche": "moda"
+    },
+    {
+      "username": "jahongir_xojayev",
+      "niche": "aktyor/komediya"
+    },
+    {
+      "username": "durdona_kurbonova",
+      "niche": "qo'shiqchi"
+    },
+    {
+      "username": "shaxzoda__muxammedova",
+      "niche": "moda"
+    },
+    {
+      "username": "shahzodasinger",
+      "niche": "qo'shiqchi"
+    },
+    {
+      "username": "ahadqayum_showman",
+      "niche": "shou/aktyor"
+    },
+    {
+      "username": "asalshodieva",
+      "niche": "raqs"
+    },
+    {
+      "username": "beckmirza",
+      "niche": "komediya/mem"
+    },
+    {
+      "username": "javohirgroup_",
+      "niche": "Formula 1/kontent"
+    },
+    {
+      "username": "mr.gapteam",
+      "niche": "noma'lum"
+    }
   ]
 }

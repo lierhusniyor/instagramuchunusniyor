@@ -1,7 +1,7 @@
 """Tahlil natijasini qisqa o'zbekcha matn hisobotiga aylantiradi."""
 
 
-def build(now, tz_name, trend_items, result, warnings, sample=False):
+def build(now, tz_name, trend_items, result, warnings, sample=False, post_status=None):
     from zoneinfo import ZoneInfo
 
     local = now.astimezone(ZoneInfo(tz_name))
@@ -9,6 +9,10 @@ def build(now, tz_name, trend_items, result, warnings, sample=False):
     if sample:
         lines.append("(NAMUNA ma'lumot: haqiqiy emas, faqat sinov uchun)")
     lines.append("")
+
+    if post_status:
+        lines.append(f"Joylash: {post_status}")
+        lines.append("")
 
     lines.append("Trend qidiruvlar (O'zbekiston):")
     if trend_items:
@@ -22,6 +26,8 @@ def build(now, tz_name, trend_items, result, warnings, sample=False):
     lines.append(
         f"Tahlil: {result['accounts']} akkaunt, {result['posts_analyzed']} post."
     )
+    if result["accounts"] and not result["posts_analyzed"]:
+        lines.append("Hali tahlil qilinadigan post yo'q (akkauntda postlar paydo bo'lgach to'ladi).")
 
     shared = result["shared_topics"]
     if shared:

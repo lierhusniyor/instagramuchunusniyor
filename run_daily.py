@@ -1,11 +1,18 @@
 #!/usr/bin/env python3
-"""Kunlik tahlil: python3 run_daily.py [--sample] [--dry-run]"""
+"""Kunlik ish: python3 run_daily.py [--sample] [--dry-run] [--post]
+
+--post     navbatdagi postni Instagram'ga joylaydi (Windsor orqali)
+--dry-run  hech narsa yubormaydi/joylamaydi, faqat chop etadi
+--sample   namuna ma'lumot bilan sinash (tarmoqsiz)
+"""
 import argparse
 import json
+import os
 from datetime import datetime, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
-from agent import analyze, graph_api, notify, report, trends
+from agent import analyze, notify, poster, report, trends, windsor
 
 ROOT = Path(__file__).parent
 
@@ -14,10 +21,12 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--sample", action="store_true", help="namuna ma'lumot bilan sinash")
     parser.add_argument("--dry-run", action="store_true", help="yubormasdan chop etish")
+    parser.add_argument("--post", action="store_true", help="navbatdagi postni joylash")
     args = parser.parse_args()
 
     config = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
     warnings = []
+    post_status = None
 
     if args.sample:
         sample = json.loads((ROOT / "tests" / "sample_data.json").read_text(encoding="utf-8"))
@@ -26,8 +35,26 @@ def main():
         now = datetime.fromisoformat(sample["now"])
     else:
         now = datetime.now(timezone.utc)
-        accounts, account_warnings = graph_api.collect(config)
-        warnings += account_warnings
+        client = None
+        api_key = os.environ.get("WINDSOR_API_KEY")
+        if api_key:
+            try:
+                client = windsor.WindsorMCP(api_key)
+            except Exception as exc:  # noqa: BLE001
+                warnings.append(f"Windsor'ga ulanilmadi: {exc}")
+        else:
+            warnings.append("WINDSOR_API_KEY yo'q: Instagram tahlili va joylash o'tkazib yuborildi.")
+
+        if client and args.post:
+            today = now.astimezone(ZoneInfo(config["timezone"])).date().isoformat()
+            post_status = poster.run(client, ROOT, today, dry_run=args.dry_run)
+
+        accounts = []
+        if client:
+            try:
+                accounts = windsor.collect(client, config["lookback_days"])
+            except Exception as exc:  # noqa: BLE001
+                warnings.append(f"Instagram ma'lumoti olinmadi: {exc}")
         try:
             trend_items = trends.collect(config.get("trends_geo", "UZ"))
         except Exception as exc:  # noqa: BLE001
@@ -35,7 +62,10 @@ def main():
             warnings.append(f"Google Trends olinmadi: {exc}")
 
     result = analyze.analyze(accounts, config["timezone"], config["lookback_days"], now)
-    text = report.build(now, config["timezone"], trend_items, result, warnings, sample=args.sample)
+    text = report.build(
+        now, config["timezone"], trend_items, result, warnings,
+        sample=args.sample, post_status=post_status,
+    )
 
     if not args.sample:
         data_dir = ROOT / "data"

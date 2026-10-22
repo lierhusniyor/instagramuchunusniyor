@@ -2,7 +2,7 @@
 import collections
 import re
 from datetime import timedelta
-from datetime import datetime
+from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 
 WORD_RE = re.compile(r"[^\W\d_]{4,}", re.UNICODE)
@@ -23,7 +23,10 @@ def parse_ts(ts):
     match = re.search(r"([+-]\d{2})(\d{2})$", ts)
     if match:
         ts = ts[: match.start()] + f"{match.group(1)}:{match.group(2)}"
-    return datetime.fromisoformat(ts)
+    parsed = datetime.fromisoformat(ts)
+    if parsed.tzinfo is None:  # Windsor ba'zan zonasiz (UTC) vaqt qaytaradi
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    return parsed
 
 
 def engagement(post, followers):
