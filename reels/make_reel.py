@@ -22,7 +22,10 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 W, H, FPS = 1080, 1920, 30
-FONT_PATH = "/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf"
+FONT_PATH = next((f for f in (
+    "/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf",
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf") if Path(f).exists()),
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf")
 
 
 def hex_to_rgb(value):
