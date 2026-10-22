@@ -1,1 +1,3 @@
-Tabriklaymiz! Loyiha birinchi marta to'liq ishladi: Instagram'ga post joylandi va bot orqali xabar keldi. Holat GitHub'da v0.1-baza deb saqlandi.
+🐰 Hello world!
+Biz endi boshladik. Instagram'ga yangi post joylandi: @usniy_or
+Ko'ring va fikringizni yozing! 💫
