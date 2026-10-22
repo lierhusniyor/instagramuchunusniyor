@@ -1,0 +1,28 @@
+name: Telegram xabar
+
+# notify/message.txt o'zgarsa, shu matn Telegram botga yuboriladi.
+on:
+  push:
+    paths:
+      - "notify/message.txt"
+  workflow_dispatch:
+
+jobs:
+  xabar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Telegramga yuborish
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_CHAT_ID" ]; then
+            echo "Secret topilmadi: TELEGRAM_BOT_TOKEN va TELEGRAM_CHAT_ID ni tekshiring."
+            exit 1
+          fi
+          curl --fail --silent --show-error \
+            -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
+            --data-urlencode "text@notify/message.txt" > /dev/null
+          echo "Yuborildi."
