@@ -6,10 +6,6 @@ Quyidagi bloklar Kling promptlariga so'zma-so'z ko'chiriladi.
 CHARACTER_JAHONGIR: 22-year-old young man, messy curly black hair, big round black glasses, oversized yellow hoodie, thin build, black pants, plain white sneakers with no logos, tired but kind eyes
 Xarakter: umidvor, lekin doim pulsiz; hamma narsani "keyingi oyda" deb kechiktiradi.
 
-## JASUR (23, yigit, "ishonchli, lekin hech narsa bilmaydi")
-CHARACTER_JASUR: 23-year-old young man, short buzz-cut dark hair, strong build, gray tank top and black cap worn backwards, confident grin
-Xarakter: o'zini "biznesmen" deb biladi, g'oyalari absurd.
-
 ## MALIKA (21, qiz, "mantiq va sarkazm")
 CHARACTER_MALIKA: 21-year-old young woman, long straight dark hair in a ponytail, round face, light blue denim jacket over white t-shirt, small silver earrings, sharp raised eyebrow
 Xarakter: sarkastik, jamoaning aqli, hammaga haqiqatni aytadi.
