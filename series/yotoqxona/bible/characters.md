@@ -2,8 +2,8 @@
 
 Quyidagi bloklar Kling promptlariga so'zma-so'z ko'chiriladi.
 
-## AZIZ (22, yigit, "doim pulsiz")
-CHARACTER_AZIZ: 22-year-old young man, messy curly black hair, big round black glasses, oversized yellow hoodie, thin build, tired but kind eyes
+## JAHONGIR (22, yigit, "doim pulsiz")
+CHARACTER_JAHONGIR: 22-year-old young man, messy curly black hair, big round black glasses, oversized yellow hoodie, thin build, black pants, plain white sneakers with no logos, tired but kind eyes
 Xarakter: umidvor, lekin doim pulsiz; hamma narsani "keyingi oyda" deb kechiktiradi.
 
 ## JASUR (23, yigit, "ishonchli, lekin hech narsa bilmaydi")

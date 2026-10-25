@@ -4,9 +4,9 @@ Umumiy chiziq: yotoqxona ijarasi 3 kundan keyin tugaydi, hech kimda pul yo'q. Ha
 
 | Qism | Nomi | Mavzu | Asosiy hazil | Oxiridagi ilgak |
 |---|---|---|---|---|
-| 1 | "Ijara" | Pul tugadi | Aziz hamyonini ochadi, ichidan "IOU" yozuvi chiqadi | Jasur "g'oyam bor" deydi |
+| 1 | "Ijara" | Pul tugadi | Jahongir hamyonini ochadi, ichidan "IOU" yozuvi chiqadi | Jasur "g'oyam bor" deydi |
 | 2 | "Biznes g'oya" | Jasurning absurd biznesi | Hamma narsa "startap" deb ataladi | Mijoz kelyapti! |
-| 3 | "Ish suhbati" | Aziz suhbatga boradi | HR savollari: "5 yildan keyin qayerda?" | Aziz ishga qabul qilindi... lekin |
+| 3 | "Ish suhbati" | Jahongir suhbatga boradi | HR savollari: "5 yildan keyin qayerda?" | Jahongir ishga qabul qilindi... lekin |
 | 4 | "Ex yozdi" | Dilnozaning sobiq sevgilisi | Hamma "javob yozma" deydi, hamma yozdiradi | Ex yotoqxona oldida |
 | 5 | "Ota-ona tashrifi" | Ota-ona kutilmaganda keladi | Yotoqxonani 2 daqiqada "yig'ishtirish" | Onasi Maliknikiga sovchi gapini ochadi |
 | 6 | "Ijtimoiy tarmoq" | Hamma "mukammal hayot" ko'rsatadi | Real vs. Instagram solishtirish | Jasurning video viral bo'ldi |
