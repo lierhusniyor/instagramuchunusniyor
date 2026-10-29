@@ -81,13 +81,16 @@ class WindsorMCP:
             if isinstance(res, dict) and res.get("status") == "pending":
                 time.sleep(min(float(res.get("poll_after_seconds") or 10), 30))
                 continue
+            if isinstance(res, list):
+                return res
             return res.get("data", []) if isinstance(res, dict) else []
         raise WindsorError("get_data tugamadi (vaqt tugadi)")
 
     def instagram_account(self):
         """Windsor'ga ulangan Instagram akkaunt (id, name). IG_USER_ID qo'lda kerak emas."""
-        data = self.call("get_connectors", {"include_options": False})
-        for conn in data.get("result", []):
+        data = self.call("get_connectors", {"include_options": False, "include_actions": False})
+        conns = data.get("result", []) if isinstance(data, dict) else data
+        for conn in conns or []:
             if conn.get("id") == "instagram" and conn.get("accounts"):
                 wanted = os.environ.get("WINDSOR_IG_ACCOUNT")
                 for acc in conn["accounts"]:
