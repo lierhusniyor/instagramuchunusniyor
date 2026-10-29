@@ -25,6 +25,7 @@
 - `agent/analyze.py`: tahlil. `agent/report.py`: hisobot matni. `agent/notify.py`: Telegram/email.
 - `tests/`: sinovlar va sun'iy namuna ma'lumot.
 - `reels/`: video generator (`make_reel.py`, `build_all.py`).
+- `reels/daily/`: kunlik avtomatik Reels. `usniy.py` (vektor qahramon Usniy), `make_video.py` (ovoz edge-tts SardorNeural + musiqa), `scripts.json` (30 ta ssenariy), `build_today.py` (navbatga qo'shadi). `daily.yml` har kuni 16:00 UTC (19:00 Moskva) yasaydi va joylaydi.
 
 ## Yaxshilash g'oyalari (navbat)
 1. Birinchi haqiqiy ishga tushirishdan keyin Graph API/Trends xatolarini tuzatish.
@@ -36,3 +37,4 @@
 ## O'zgarishlar jurnali
 - 2026-10-21: loyiha yaratildi, analizator namuna ma'lumotda sinaldi.
 - 2026-10-22: Graph API olib tashlandi; Windsor orqali tahlil, joylash va Telegram birlashtirildi.
+- 2026-10-30: kunlik avtomatik video: vektor qahramon Usniy, 30 ssenariy, 19:00 Moskva vaqtida yasash+joylash.

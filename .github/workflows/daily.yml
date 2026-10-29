@@ -1,12 +1,16 @@
-name: Kunlik Instagram tahlil va joylash
+name: Kunlik Instagram video, joylash va tahlil
 
 on:
   schedule:
-    - cron: "0 3 * * *"   # 03:00 UTC = 08:00 Toshkent
+    - cron: "0 16 * * *"   # 16:00 UTC = 19:00 Moskva = 21:00 Toshkent
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: daily
+  cancel-in-progress: false
 
 jobs:
   run:
@@ -16,9 +20,19 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install -r requirements.txt
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - run: pip install -r requirements.txt pillow numpy edge-tts
       - name: Testlar
         run: python tests/make_sample.py && python -m unittest discover -s tests
+      - name: Bugungi videoni yasash (Usniy qahramoni)
+        run: python reels/daily/build_today.py
+      - name: Videoni ochiq havolaga chiqarish (push)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reels/daily/out queue/posts.json
+          git diff --cached --quiet || (git commit -m "Kunlik video" && git pull --rebase -q && git push)
+          sleep 20
       - name: Joylash, tahlil va Telegram
         run: python run_daily.py --post
         env:
@@ -30,9 +44,8 @@ jobs:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
       - name: Joylangan postlar holatini saqlash
+        if: always()
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           [ -d state ] || exit 0
           git add state
-          git diff --cached --quiet || (git commit -m "Joylangan post holati" && git push)
+          git diff --cached --quiet || (git commit -m "Joylangan post holati" && git pull --rebase -q && git push)
