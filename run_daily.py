@@ -75,6 +75,13 @@ def main():
             json.dumps(snapshot, ensure_ascii=False, indent=2), encoding="utf-8"
         )
 
+    if not args.sample:
+        state = ROOT / "state"
+        state.mkdir(exist_ok=True)
+        (state / "last_run.txt").write_text(
+            f"{now.isoformat()}\njoylash: {post_status}\nogohlantirishlar: {warnings}\n", encoding="utf-8"
+        )
+
     if args.sample or args.dry_run:
         print(text)
     else:
