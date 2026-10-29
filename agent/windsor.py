@@ -47,10 +47,20 @@ class WindsorMCP:
         if not resp.text.strip():
             return None
         if "text/event-stream" in resp.headers.get("content-type", ""):
-            for line in resp.text.splitlines():
-                if line.startswith("data:") and line[5:].strip():
-                    return json.loads(line[5:].strip())
-            return None
+            # SSE: bitta xabar bir nechta "data:" qatoriga bo'linishi mumkin
+            found = None
+            for event in resp.text.replace("\r\n", "\n").split("\n\n"):
+                parts = [ln[5:].lstrip(" ") for ln in event.split("\n") if ln.startswith("data:")]
+                if not parts:
+                    continue
+                try:
+                    msg = json.loads("\n".join(parts))
+                except ValueError:
+                    continue
+                if isinstance(msg, dict) and ("result" in msg or "error" in msg):
+                    return msg
+                found = found or msg
+            return found
         return resp.json()
 
     def _rpc(self, method, params=None):
