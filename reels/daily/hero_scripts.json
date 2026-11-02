@@ -2,15 +2,84 @@
   {
     "id": "h002",
     "beats": [
-      {"kind": "alert", "say": "To'xta. Senda har kuni bitta dushman bor.", "big1": "DUSHMAN", "big2": "ANIQLANDI", "small": "> skaner: 100% mos"},
-      {"kind": "boss", "say": "Uning ismi — dangasalik. U seni har kuni yengyapti.", "boss": "DANGASALIK"},
-      {"kind": "card", "say": "Sababi oddiy: miya katta ishdan qo'rqadi.", "tag": "FAKT", "emoji": "🧠", "big": "Miya katta ishdan qo'rqadi", "small": "Shuning uchun boshlay olmaysan."},
-      {"kind": "weapon", "say": "Mana senga qurol: ikki daqiqa qoidasi.", "big1": "2 DAQIQA", "big2": "QOIDASI", "small": "Faqat 2 daqiqa boshla"},
-      {"kind": "items", "say": "Kitob — bitta sahifa. Sport — o'nta o'tirib-turish. Ingliz tili — beshta so'z.", "title": "QANDAY ISHLATILADI", "keys": ["Kitob", "Sport", "Ingliz"], "items": [["📖", "Kitob", "1 sahifa"], ["💪", "Sport", "10 ta o'tirib-turish"], ["🗣️", "Ingliz tili", "5 ta so'z"]]},
-      {"kind": "hit", "say": "Boshlading — dangasalik o'ldi. Keyin to'xtash qiyin bo'ladi.", "boss": "DANGASALIK", "hits": [0.35, 0.95, 1.55]},
-      {"kind": "quest", "say": "Bugungi kvest: hozir ikki daqiqa. Sen qaysi ishdan boshlaysan?", "quest": "Hozir 2 daqiqa boshla", "lvl_at": 0.5}
+      {
+        "kind": "alert",
+        "say": "To'xta. Senda bitta dushman bor.",
+        "big1": "DUSHMAN",
+        "big2": "ANIQLANDI",
+        "small": "> skaner: 100% mos"
+      },
+      {
+        "kind": "boss",
+        "say": "Ismi — dangasalik. Har kuni seni yengyapti.",
+        "boss": "DANGASALIK"
+      },
+      {
+        "kind": "card",
+        "say": "Chunki miya katta ishdan qo'rqadi.",
+        "tag": "FAKT",
+        "emoji": "🧠",
+        "big": "Miya katta ishdan qo'rqadi",
+        "small": "Shuning uchun boshlay olmaysan."
+      },
+      {
+        "kind": "weapon",
+        "say": "Qurol: ikki daqiqa qoidasi.",
+        "big1": "2 DAQIQA",
+        "big2": "QOIDASI",
+        "small": "Faqat 2 daqiqa boshla"
+      },
+      {
+        "kind": "items",
+        "say": "Kitob — bir sahifa. Sport — o'n marta. Til — besh so'z.",
+        "title": "QANDAY ISHLATILADI",
+        "keys": [
+          "Kitob",
+          "Sport",
+          "Til"
+        ],
+        "items": [
+          [
+            "📖",
+            "Kitob",
+            "1 sahifa"
+          ],
+          [
+            "💪",
+            "Sport",
+            "10 ta o'tirib-turish"
+          ],
+          [
+            "🗣️",
+            "Ingliz tili",
+            "5 ta so'z"
+          ]
+        ]
+      },
+      {
+        "kind": "hit",
+        "say": "Boshlading — u yengildi. To'xtash qiyin bo'ladi.",
+        "boss": "DANGASALIK",
+        "hits": [
+          0.3,
+          0.8,
+          1.3
+        ]
+      },
+      {
+        "kind": "quest",
+        "say": "Kvest: hozir ikki daqiqa. Qaysi ishdan boshlaysan?",
+        "quest": "Hozir 2 daqiqa boshla",
+        "lvl_at": 0.5
+      }
     ],
     "caption": "Dangasalikni 2 daqiqada yengish: kunlik kvest 2/180. Sen qaysi ishdan boshlaysan?",
-    "tags": ["#motivatsiya", "#intizom", "#rivojlanish", "#ozgarish", "#levelup"]
+    "tags": [
+      "#motivatsiya",
+      "#intizom",
+      "#rivojlanish",
+      "#ozgarish",
+      "#levelup"
+    ]
   }
 ]

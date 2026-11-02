@@ -38,9 +38,9 @@ HERO_Y = 1310          # qahramon tepasi
 async def _tts_words(text, mp3):
     import edge_tts
     try:
-        comm = edge_tts.Communicate(text, VOICE, rate="+6%", boundary="WordBoundary")
+        comm = edge_tts.Communicate(text, VOICE, rate="+12%", boundary="WordBoundary")
     except TypeError:
-        comm = edge_tts.Communicate(text, VOICE, rate="+6%")
+        comm = edge_tts.Communicate(text, VOICE, rate="+12%")
     words = []
     with open(mp3, "wb") as f:
         async for ch in comm.stream():
