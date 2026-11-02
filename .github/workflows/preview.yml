@@ -7,6 +7,9 @@ on:
         description: "Ssenariy id (masalan h002)"
         default: "h002"
 
+permissions:
+  contents: write
+
 jobs:
   render:
     runs-on: ubuntu-latest
@@ -18,7 +21,12 @@ jobs:
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-color-emoji
       - run: pip install pillow numpy edge-tts
       - run: cd reels/daily && python hero_video.py --id ${{ inputs.id }} --out preview/${{ inputs.id }}.mp4
-      - uses: actions/upload-artifact@v4
-        with:
-          name: preview
-          path: reels/daily/preview/*.mp4
+      - name: preview branchiga yuklash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan preview
+          git rm -rq --cached .
+          git add -f reels/daily/preview/*.mp4
+          git commit -qm "preview ${{ inputs.id }}"
+          git push -f origin preview
