@@ -1,0 +1,24 @@
+name: Qahramonli video (oldindan ko'rish)
+
+on:
+  workflow_dispatch:
+    inputs:
+      id:
+        description: "Ssenariy id (masalan h002)"
+        default: "h002"
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-color-emoji
+      - run: pip install pillow numpy edge-tts
+      - run: cd reels/daily && python hero_video.py --id ${{ inputs.id }} --out preview/${{ inputs.id }}.mp4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: preview
+          path: reels/daily/preview/*.mp4

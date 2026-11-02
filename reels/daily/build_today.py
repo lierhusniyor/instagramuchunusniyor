@@ -40,7 +40,13 @@ def main():
             break
 
     rel = f"reels/daily/out/{pid}.mp4"
-    info = make_video.render(script, ROOT / rel)
+    hero = {h["id"]: h for h in json.loads((HERE / "hero_scripts.json").read_text(encoding="utf-8"))}
+    if script["id"] in hero:  # qahramonli (USTOZ) versiya bor bo'lsa, o'shani ishlat
+        import hero_video
+        script = dict(script, caption=hero[script["id"]]["caption"], tags=hero[script["id"]]["tags"])
+        info = hero_video.render(hero[script["id"]], ROOT / rel)
+    else:
+        info = make_video.render(script, ROOT / rel)
     print(f"Video: {rel} {info}")
 
     caption = f"{script['caption']}\n\n{' '.join(script['tags'][:5])}"
