@@ -22,5 +22,13 @@
     "caption": "Instagram teglari: kam, lekin aniq. Siz nechta teg qo'yasiz?\n\n#hashtag #instagramuz #reels #kontent",
     "date": "2026-11-01",
     "auto": true
+  },
+  {
+    "id": "h001",
+    "type": "reel",
+    "url": "https://raw.githubusercontent.com/lierhusniyor/instagramuchunusniyor/main/reels/daily/out/h001.mp4",
+    "caption": "O'zgarish yo'li bugundan. Sizning maqsadingiz nima? Izohda yozing.\n\n#ozgarish #motivatsiya #rivojlanish #maqsad",
+    "date": "2026-11-02",
+    "auto": true
   }
 ]
