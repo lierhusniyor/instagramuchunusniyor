@@ -1,32 +1,2882 @@
 [
-  {"id": "d01", "hook": "Reelsingizni hech kim ko'rmayaptimi?", "lines": ["Birinchi 2 soniya hamma narsani hal qiladi.", "Boshida savol bering yoki natijani ko'rsating.", "Salom-alikni olib tashlang, darhol mavzuga o'ting."], "caption": "Reels ilgagi: birinchi 2 soniya eng muhim. Siz videoni qanday boshlaysiz?", "tags": ["#reels", "#instagramuz", "#blogger", "#kontent"]},
-  {"id": "d02", "hook": "Bio'ngiz obunachini qochiryapti!", "lines": ["1-qatorda kim ekaningizni yozing.", "2-qatorda qanday foyda berishingizni.", "Oxirida bitta aniq chaqiruv qo'ying."], "caption": "Instagram bio: 3 qatorli formula. Sizning bio'ngizda nima yozilgan?", "tags": ["#instagrambio", "#instagramuz", "#profil", "#blogger"]},
-  {"id": "d03", "hook": "30 ta teg qo'yasizmi? Bu xato.", "lines": ["3-5 ta aniq teg yetarli.", "Teg mavzuga mos bo'lsin, shunchaki mashhur emas.", "Har safar bir xil teglarni ko'chirmang."], "caption": "Instagram teglari: kam, lekin aniq. Siz nechta teg qo'yasiz?", "tags": ["#hashtag", "#instagramuz", "#reels", "#kontent"]},
-  {"id": "d04", "hook": "Algoritm nimani yaxshi ko'radi?", "lines": ["Saqlash va ulashish kuchli signal.", "Foydali ro'yxat yoki maslahat bering.", "Oxirida: 'Saqlab qo'ying, kerak bo'ladi' deng."], "caption": "Instagram algoritmi: saqlash va ulashish. Siz eng ko'p qanday postlarni saqlaysiz?", "tags": ["#algoritm", "#instagramuz", "#reels", "#blogger"]},
-  {"id": "d05", "hook": "Postni qachon joylash kerak?", "lines": ["Statistikada obunachilaringiz faol soatini ko'ring.", "Shu vaqtdan biroz oldin joylang.", "Har kuni bir xil vaqtda chiqaring."], "caption": "Joylash vaqti: statistikaga qarang. Sizning obunachilaringiz soat nechada faol?", "tags": ["#instagramuz", "#statistika", "#blogger", "#smm"]},
-  {"id": "d06", "hook": "Videongizni ovozsiz ko'rishyapti!", "lines": ["Ko'pchilik videoni ovozsiz ko'radi.", "Ekranga matn yoki subtitr qo'ying.", "Harflar katta va o'qilishi oson bo'lsin."], "caption": "Subtitr: ovozsiz ko'ruvchilar uchun. Siz videoga matn qo'yasizmi?", "tags": ["#reels", "#subtitr", "#instagramuz", "#kontent"]},
-  {"id": "d07", "hook": "Izohlarga javob berasizmi?", "lines": ["Birinchi soatda javob berishga harakat qiling.", "Savol bilan javob bering, suhbat davom etadi.", "Faol muhokama postga jon kiritadi."], "caption": "Izohlarga javob: suhbatni davom ettiring. Siz har bir izohga javob yozasizmi?", "tags": ["#instagramuz", "#izoh", "#blogger", "#smm"]},
-  {"id": "d08", "hook": "Trend musiqa nima beradi?", "lines": ["O'sib borayotgan audioni tanlang.", "Musiqani past qo'yib, o'z gapingizni qo'shing.", "Trendni o'z mavzuingizga moslang."], "caption": "Trend audio: o'z mavzuingizga moslang. Oxirgi marta qaysi trendni ishlatgansiz?", "tags": ["#reels", "#trend", "#instagramuz", "#musiqa"]},
-  {"id": "d09", "hook": "Natija yo'q? Balki to'xtab qolyapsiz.", "lines": ["Muntazamlik ko'p narsani hal qiladi.", "Oz bo'lsa ham, doimiy joylang.", "Bir oy to'xtamay sinab ko'ring."], "caption": "Muntazamlik: oz, lekin doimiy. Siz haftada necha marta joylaysiz?", "tags": ["#blogger", "#instagramuz", "#motivatsiya", "#kontent"]},
-  {"id": "d10", "hook": "Profilingiz tartibsiz ko'rinyaptimi?", "lines": ["Reels uchun alohida muqova tanlang.", "Muqovaga 2-3 so'zli sarlavha yozing.", "Bir xil uslub profilni chiroyli qiladi."], "caption": "Reels muqovasi: profil tartibli ko'rinsin. Sizda muqovalar bir xil uslubdami?", "tags": ["#profil", "#instagramuz", "#reels", "#dizayn"]},
-  {"id": "d11", "hook": "Storylaringizni hech kim bosmaydimi?", "lines": ["So'rovnoma yoki savol stikerini qo'shing.", "Odamlar bosadi, aloqa kuchayadi.", "Javoblardan yangi post g'oyasi oling."], "caption": "Story stikerlari: so'rovnoma va savol. Siz qaysi stikerni ko'p ishlatasiz?", "tags": ["#stories", "#instagramuz", "#blogger", "#smm"]},
-  {"id": "d12", "hook": "Aktual bo'limingiz bo'shmi?", "lines": ["Eng muhim storylarni aktualga saqlang.", "Masalan: Narxlar, Fikrlar, Men haqimda.", "Yangi mehmon sizni tez tushunadi."], "caption": "Aktual (Highlights): profilning vitrinasi. Sizda qanday aktuallar bor?", "tags": ["#highlights", "#instagramuz", "#profil", "#biznes"]},
-  {"id": "d13", "hook": "Bitta post, ikki auditoriya!", "lines": ["Hamkorlik postida boshqa profilni taklif qiling.", "Post ikkala profilda birdan chiqadi.", "O'xshash mavzudagi blogger bilan qiling."], "caption": "Collab post: ikki auditoriya birdan. Kim bilan hamkorlik qilishni xohlaysiz?", "tags": ["#collab", "#instagramuz", "#blogger", "#hamkorlik"]},
-  {"id": "d14", "hook": "Statistikani qayerdan ko'rasiz?", "lines": ["Avval professional akkauntga o'ting.", "Post ostidagi statistikani oching.", "Qamrov, saqlash va ulashishga qarang."], "caption": "Instagram statistika: raqamlarga qarang. Siz statistikani tez-tez tekshirasizmi?", "tags": ["#statistika", "#instagramuz", "#smm", "#blogger"]},
-  {"id": "d15", "hook": "Reels qancha uzun bo'lishi kerak?", "lines": ["Oxirigacha ko'rilgan video yaxshi signal.", "Gap bo'lmasa, videoni cho'zmang.", "Qisqa, lekin to'liq fikr ayting."], "caption": "Reels uzunligi: qisqa va to'liq. Sizning videolaringiz necha soniya?", "tags": ["#reels", "#instagramuz", "#video", "#kontent"]},
-  {"id": "d16", "hook": "Karusel postlar nega kuchli?", "lines": ["Odam varaqlaydi, postda ko'proq qoladi.", "Birinchi slaydga kuchli sarlavha qo'ying.", "Oxirgisida saqlashni so'rang."], "caption": "Karusel: varaqlatadigan post. Siz karusel yasab ko'rganmisiz?", "tags": ["#karusel", "#instagramuz", "#kontent", "#smm"]},
-  {"id": "d17", "hook": "Sizni qidiruvda topisholmayaptimi?", "lines": ["Nik qisqa va o'qilishi oson bo'lsin.", "Ism maydoniga kalit so'z qo'shing.", "Masalan: 'Ali | Tort retseptlari'."], "caption": "Qidiruv: ism maydonidagi kalit so'z. Sizning ism maydoningizda nima yozilgan?", "tags": ["#instagramuz", "#profil", "#seo", "#blogger"]},
-  {"id": "d18", "hook": "3 ta ilgak, yozib oling!", "lines": ["'Buni bilmasangiz, pul yo'qotasiz.'", "'Hamma shu xatoni qiladi.'", "'Buni 10 soniyada o'rganing.'"], "caption": "Reels ilgaklari: 3 ta tayyor shablon. Qaysi birini sinab ko'rasiz?", "tags": ["#reels", "#ilgak", "#instagramuz", "#kontent"]},
-  {"id": "d19", "hook": "Obunachi sotib olmang!", "lines": ["Soxta obunachilar layk ham, izoh ham qoldirmaydi.", "Faollik foizingiz tushib ketadi.", "Sekin, lekin haqiqiy o'sish yaxshiroq."], "caption": "Soxta obunachi: foydadan ko'ra zarar. Sizga obunachi sotib olishni taklif qilishganmi?", "tags": ["#instagramuz", "#blogger", "#smm", "#maslahat"]},
-  {"id": "d20", "hook": "Bitta g'oyadan 3 ta post!", "lines": ["Avval undan Reels qiling.", "Shu matndan karusel yasang.", "Qisqasini storyga qo'ying."], "caption": "Kontent qayta ishlash: bitta g'oya, 3 ta post. Siz g'oyalarni qayta ishlatasizmi?", "tags": ["#kontent", "#instagramuz", "#reels", "#blogger"]},
-  {"id": "d21", "hook": "Izohlar ko'payishini xohlaysizmi?", "lines": ["Oxirida oson savol bering.", "'Ha yoki yo'q?' kabi savollar.", "Javob berish oson bo'lsa, ko'p yozishadi."], "caption": "Izohlar: oson savol bering. Siz postlaringizda savol berasizmi, ha yoki yo'q?", "tags": ["#izoh", "#instagramuz", "#smm", "#blogger"]},
-  {"id": "d22", "hook": "Telefonda sifatli video sirlari", "lines": ["Derazaga yuzlanib turing, tabiiy yorug'lik.", "Kamera ko'zini artib oling.", "Vertikal, 9:16 formatda oling."], "caption": "Telefonda video: yorug'lik va toza kamera. Siz qaysi telefonda suratga olasiz?", "tags": ["#video", "#mobilografiya", "#instagramuz", "#reels"]},
-  {"id": "d23", "hook": "Hamma narsa haqida yozyapsizmi?", "lines": ["Bitta asosiy mavzu tanlang.", "Odamlar sizdan nima kutishni bilsin.", "Shunda obuna bo'lishga sabab paydo bo'ladi."], "caption": "Nisha: bitta aniq mavzu. Sizning mavzuingiz nima?", "tags": ["#blogger", "#instagramuz", "#nisha", "#kontent"]},
-  {"id": "d24", "hook": "Havolani qayerga qo'yasiz?", "lines": ["Bio'ga havola qo'shish mumkin.", "Storyda 'Havola' stikeri bor.", "Postda: 'Havola profilda' deb yozing."], "caption": "Havola: bio va story stikeri. Siz havolani qayerga qo'yasiz?", "tags": ["#instagramuz", "#biznes", "#smm", "#maslahat"]},
-  {"id": "d25", "hook": "Postni o'chirmang, arxivlang!", "lines": ["Arxivdagi post faqat sizga ko'rinadi.", "Xohlasangiz, qaytarib qo'yasiz.", "Layk va izohlar ham saqlanib qoladi."], "caption": "Arxiv: o'chirmasdan yashirish. Siz eski postlarni o'chirganmisiz?", "tags": ["#instagramuz", "#maslahat", "#profil", "#blogger"]},
-  {"id": "d26", "hook": "Profilga 3 ta post qadab qo'ying", "lines": ["Eng yaxshi postlaringizni tepaga qadang.", "Yangi mehmon avval shularni ko'radi.", "Post menyusidan 'Profilga qadash'ni bosing."], "caption": "Qadalgan postlar: profil vitrinasi. Siz qaysi postni qadaysiz?", "tags": ["#profil", "#instagramuz", "#maslahat", "#blogger"]},
-  {"id": "d27", "hook": "Har kuni joylashga vaqtingiz yo'qmi?", "lines": ["Postni oldindan rejalashtirsa bo'ladi.", "Vaqtni tanlaysiz, o'zi chiqadi.", "Dam olish kunida bir haftalikni tayyorlang."], "caption": "Rejalashtirish: bir kunda bir haftalik kontent. Siz postlarni oldindan tayyorlaysizmi?", "tags": ["#smm", "#instagramuz", "#reja", "#kontent"]},
-  {"id": "d28", "hook": "G'oya tugadimi? Izohlarga qarang!", "lines": ["Izohlarda savollar bormi?", "Har bir savol tayyor video g'oyasi.", "Izohga Reels bilan javob bering."], "caption": "G'oyalar: izohlardagi savollar. Sizga eng ko'p qanday savol berishadi?", "tags": ["#reels", "#goya", "#instagramuz", "#kontent"]},
-  {"id": "d29", "hook": "Eng yaxshi postingizni takrorlang", "lines": ["Statistikada eng ko'p qamrov olganini toping.", "Nega yoqqanini tushunib oling.", "Shu formatda yangi post qiling."], "caption": "Eng yaxshi post: formulani takrorlang. Sizning eng ko'p ko'rilgan postingiz qaysi?", "tags": ["#statistika", "#instagramuz", "#smm", "#reels"]},
-  {"id": "d30", "hook": "Instagram'da o'sishning siri yo'q", "lines": ["Foydali kontent qiling.", "Muntazam joylang va javob bering.", "Natijani kuzating va yaxshilang."], "caption": "Instagram'da o'sish: foyda, muntazamlik, tahlil. Sizga qaysi biri qiyin?", "tags": ["#instagramuz", "#blogger", "#motivatsiya", "#smm"]}
+ {
+  "id": "h001",
+  "hook": "Bugun 1-kun. Siz bilan birgamiz.",
+  "lines": [
+   "Bu kanal o'rganish va o'zgarish haqida.",
+   "Har kuni bitta foydali video.",
+   "Obuna bo'ling va birga o'sing."
+  ],
+  "caption": "O'zgarish yo'li bugundan. Sizning maqsadingiz nima? Izohda yozing.",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h002",
+  "hook": "Hayotingiz o'zgarmayapti? Sababi bitta.",
+  "lines": [
+   "Har kuni bir xil ish, bir xil natija.",
+   "O'zgarish katta qarordan emas, kichik qadamdan boshlanadi.",
+   "Bugun 15 daqiqa yangi narsa o'rganing."
+  ],
+  "caption": "O'zgarish kichik qadamdan boshlanadi. Bugun qaysi qadamni tashlaysiz?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h003",
+  "hook": "O'qiysiz, lekin esingizda qolmaydimi?",
+  "lines": [
+   "O'qib bo'lgach, kitobni yoping.",
+   "Eslagan narsangizni o'z so'zingiz bilan yozing.",
+   "Bu oddiy qayta o'qishdan ancha samarali."
+  ],
+  "caption": "Eslab qolish usuli: yopib, qayta ayting. Siz qanday takrorlaysiz?",
+  "tags": [
+   "#organish",
+   "#bilim",
+   "#talim",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h004",
+  "hook": "IT'ga kirish uchun diplom shartmi?",
+  "lines": [
+   "Ko'p kompaniyalar ko'nikma va portfolioga qaraydi.",
+   "Diplom yordam beradi, lekin yagona yo'l emas.",
+   "Bilim va loyihalar bilan boshlang."
+  ],
+  "caption": "IT'da ko'nikma muhim. Siz qaysi yo'nalishni tanladingiz?",
+  "tags": [
+   "#it",
+   "#dasturlash",
+   "#ituz",
+   "#kasb"
+  ]
+ },
+ {
+  "id": "h005",
+  "hook": "AI'dan o'qituvchi sifatida foydalaning.",
+  "lines": [
+   "\"Menga buni oddiy tushuntir\" deb so'rang.",
+   "Keyin \"Menga test ber\" deng.",
+   "Javoblarni boshqa manbadan tekshiring."
+  ],
+  "caption": "AI — shaxsiy o'qituvchi. Siz AI'ni o'rganishda ishlatasizmi?",
+  "tags": [
+   "#suniyintellekt",
+   "#ai",
+   "#claude",
+   "#texnologiya"
+  ]
+ },
+ {
+  "id": "h006",
+  "hook": "Ertalabki 1 soat — oltin vaqt.",
+  "lines": [
+   "Telefonni darhol olmang.",
+   "Birinchi soatni o'zingizga bering.",
+   "O'qish, mashq yoki reja."
+  ],
+  "caption": "Ertalabki soat. Kuningizni qanday boshlaysiz?",
+  "tags": [
+   "#intizom",
+   "#odatlar",
+   "#vaqt",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h007",
+  "hook": "Eng yaxshi investitsiya — o'zingizga.",
+  "lines": [
+   "Bilim va ko'nikma vaqt o'tib qadrlanadi.",
+   "Kitob, kurs, vosita — kelajakka sarmoya.",
+   "Lekin har bir xarajatni o'ylab qiling."
+  ],
+  "caption": "O'zingizga sarmoya. Oxirgi marta o'zingizga nimaga pul sarfladingiz?",
+  "tags": [
+   "#pul",
+   "#daromad",
+   "#kasb",
+   "#kelajak"
+  ]
+ },
+ {
+  "id": "h008",
+  "hook": "Uyqu — eng arzon superkuch.",
+  "lines": [
+   "Kattalarga odatda 7-9 soat uyqu tavsiya etiladi.",
+   "Uyqusiz miya yomon eslab qoladi.",
+   "Uyquni qurbon qilmang."
+  ],
+  "caption": "Uyqu va o'rganish. Siz necha soat uxlaysiz?",
+  "tags": [
+   "#sogliq",
+   "#uyqu",
+   "#energiya",
+   "#hayot"
+  ]
+ },
+ {
+  "id": "h009",
+  "hook": "Ingliz tili: kuniga 5 ta so'z.",
+  "lines": [
+   "5 ta so'z — oyiga 150 ta.",
+   "Har birini gapda ishlating.",
+   "Haftada bir marta takrorlang."
+  ],
+  "caption": "Kunlik 5 so'z. Bugun qanday so'zlar o'rgandingiz?",
+  "tags": [
+   "#ingliztili",
+   "#english",
+   "#til",
+   "#organish"
+  ]
+ },
+ {
+  "id": "h010",
+  "hook": "O'z yo'lingizni ulashing.",
+  "lines": [
+   "O'rganish jarayoningizni videoga oling.",
+   "Odamlar haqiqiy hikoyani kuzatadi.",
+   "Bu sizni ham mas'uliyatli qiladi."
+  ],
+  "caption": "O'rganish blogi. Siz jarayoningizni ulashasizmi?",
+  "tags": [
+   "#blogger",
+   "#kontent",
+   "#instagramuz",
+   "#brend"
+  ]
+ },
+ {
+  "id": "h011",
+  "hook": "\"Kech qoldim\" deyapsizmi?",
+  "lines": [
+   "22 yosh ham, 35 yosh ham kech emas.",
+   "Kech qolgan odam — umuman boshlamagan odam.",
+   "Bir yildan keyin bugun boshlaganingizdan xursand bo'lasiz."
+  ],
+  "caption": "O'rganishni boshlash uchun kech emas. Siz nechchi yoshda boshladingiz?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h012",
+  "hook": "Video ko'rish o'rganish emas.",
+  "lines": [
+   "Ko'rish — tanishish, xolos.",
+   "O'rganish — o'zingiz qilib ko'rganda.",
+   "Har 10 daqiqa videoga 20 daqiqa amaliyot."
+  ],
+  "caption": "Ko'rmang, qiling. Amaliyotga qancha vaqt ajratasiz?",
+  "tags": [
+   "#organish",
+   "#bilim",
+   "#talim",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h013",
+  "hook": "Qaysi dasturlash tilidan boshlash kerak?",
+  "lines": [
+   "Python — o'qilishi oson, ko'p sohada ishlatiladi.",
+   "JavaScript — veb-sayt yasash uchun.",
+   "Bittasini tanlang va 3 oy o'zgartirmang."
+  ],
+  "caption": "Birinchi dasturlash tili. Siz qaysi tilni tanladingiz?",
+  "tags": [
+   "#it",
+   "#dasturlash",
+   "#ituz",
+   "#kasb"
+  ]
+ },
+ {
+  "id": "h014",
+  "hook": "AI hamma narsani bilmaydi.",
+  "lines": [
+   "AI ham xato qilishi mumkin.",
+   "Muhim faktlarni rasmiy manbadan tekshiring.",
+   "AI — yordamchi, oxirgi hakam emas."
+  ],
+  "caption": "AI javobini tekshiring. AI sizga xato javob berganmi?",
+  "tags": [
+   "#suniyintellekt",
+   "#ai",
+   "#claude",
+   "#texnologiya"
+  ]
+ },
+ {
+  "id": "h015",
+  "hook": "Odat 2 daqiqadan boshlanadi.",
+  "lines": [
+   "\"Har kuni 1 soat\" emas, \"2 daqiqa\".",
+   "Boshlash oson bo'lsa, davom etish ham oson.",
+   "Keyin vaqtni asta oshiring."
+  ],
+  "caption": "2 daqiqalik qoida. Qaysi odatni 2 daqiqadan boshlaysiz?",
+  "tags": [
+   "#intizom",
+   "#odatlar",
+   "#vaqt",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h016",
+  "hook": "Daromadning bir qismini chetga qo'ying.",
+  "lines": [
+   "Kichik summadan bo'lsa ham boshlang.",
+   "Muntazamlik summadan muhim.",
+   "Zaxira pul xotirjamlik beradi."
+  ],
+  "caption": "Jamg'arma odati. Siz pul yig'asizmi?",
+  "tags": [
+   "#pul",
+   "#daromad",
+   "#kasb",
+   "#kelajak"
+  ]
+ },
+ {
+  "id": "h017",
+  "hook": "Kuniga 20 daqiqa yuring.",
+  "lines": [
+   "Yurish fikrni tiniqlashtiradi.",
+   "Muammo ustida o'ylash uchun yaxshi vaqt.",
+   "Podkast bilan birga — ikki foyda."
+  ],
+  "caption": "Kunlik yurish. Bugun qancha yurdingiz?",
+  "tags": [
+   "#sogliq",
+   "#uyqu",
+   "#energiya",
+   "#hayot"
+  ]
+ },
+ {
+  "id": "h018",
+  "hook": "Gapirishdan qo'rqmang.",
+  "lines": [
+   "Xato bilan gapirish — jim turishdan yaxshi.",
+   "O'zingiz bilan ovoz chiqarib gapiring.",
+   "Ovozingizni yozib, tinglab ko'ring."
+  ],
+  "caption": "Gapirish mashqi. Siz inglizcha gapirganmisiz?",
+  "tags": [
+   "#ingliztili",
+   "#english",
+   "#til",
+   "#organish"
+  ]
+ },
+ {
+  "id": "h019",
+  "hook": "Shaxsiy brend — bu ishonch.",
+  "lines": [
+   "Siz nima haqida gapirasiz — shu bilan tanilasiz.",
+   "Bitta mavzuni tanlang.",
+   "Muntazam va halol bo'ling."
+  ],
+  "caption": "Shaxsiy brend. Siz nima bilan tanilmoqchisiz?",
+  "tags": [
+   "#blogger",
+   "#kontent",
+   "#instagramuz",
+   "#brend"
+  ]
+ },
+ {
+  "id": "h020",
+  "hook": "Ertaga boshlayman — eng katta yolg'on.",
+  "lines": [
+   "Ertaga hech qachon kelmaydi, faqat bugun bor.",
+   "Ideal vaqtni kutmang, u kelmaydi.",
+   "Hozir 5 daqiqa ajrating va birinchi qadamni qiling."
+  ],
+  "caption": "Ertaga emas, bugun boshlang. Nimani ko'p kechiktiryapsiz?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h021",
+  "hook": "Pomodoro: 25 daqiqa + 5 daqiqa.",
+  "lines": [
+   "25 daqiqa faqat bitta ish.",
+   "Telefon boshqa xonada.",
+   "5 daqiqa dam, keyin yana."
+  ],
+  "caption": "Pomodoro usuli diqqatni saqlaydi. Siz sinab ko'rganmisiz?",
+  "tags": [
+   "#organish",
+   "#bilim",
+   "#talim",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h022",
+  "hook": "Kod yozish qo'rqinchli emas.",
+  "lines": [
+   "Birinchi dastur — ekranga \"Salom\" chiqarish.",
+   "Har bir dasturchi shundan boshlagan.",
+   "Bugun birinchi qatoringizni yozing."
+  ],
+  "caption": "Birinchi kod qatori. Siz qachon birinchi kodingizni yozgansiz?",
+  "tags": [
+   "#it",
+   "#dasturlash",
+   "#ituz",
+   "#kasb"
+  ]
+ },
+ {
+  "id": "h023",
+  "hook": "Yaxshi savol — yaxshi javob.",
+  "lines": [
+   "Kontekst bering: kim ekaningiz, maqsadingiz.",
+   "Aniq format so'rang: ro'yxat, misol, jadval.",
+   "Javob yoqmasa — aniqlashtiring."
+  ],
+  "caption": "AI bilan gaplashish san'ati. Siz qanday savol berasiz?",
+  "tags": [
+   "#suniyintellekt",
+   "#ai",
+   "#claude",
+   "#texnologiya"
+  ]
+ },
+ {
+  "id": "h024",
+  "hook": "Odatni boshqasiga bog'lang.",
+  "lines": [
+   "\"Choy ichgandan keyin 5 ta so'z o'rganaman\".",
+   "Mavjud odat yangisini eslatadi.",
+   "Bu usul odatni avtomatik qiladi."
+  ],
+  "caption": "Odatlarni bog'lash. Sizda qanday bog'lash bor?",
+  "tags": [
+   "#intizom",
+   "#odatlar",
+   "#vaqt",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h025",
+  "hook": "Xarajatlaringizni yozing.",
+  "lines": [
+   "Bir oy hamma xarajatni yozib boring.",
+   "Keraksiz xarajatlarni ko'rasiz.",
+   "Tejalgan pul — o'rganishga."
+  ],
+  "caption": "Xarajatlar hisobi. Pulingiz qayerga ketyapti?",
+  "tags": [
+   "#pul",
+   "#daromad",
+   "#kasb",
+   "#kelajak"
+  ]
+ },
+ {
+  "id": "h026",
+  "hook": "Suv iching.",
+  "lines": [
+   "Suvsizlik charchoq va diqqat pasayishiga olib kelishi mumkin.",
+   "Stol ustida suv shishasi tursin.",
+   "Oddiy odat — katta farq."
+  ],
+  "caption": "Suv ichish odati. Siz kuniga qancha suv ichasiz?",
+  "tags": [
+   "#sogliq",
+   "#uyqu",
+   "#energiya",
+   "#hayot"
+  ]
+ },
+ {
+  "id": "h027",
+  "hook": "Serialni subtitr bilan ko'ring.",
+  "lines": [
+   "Avval o'z tilingizda, keyin ingliz subtitri bilan.",
+   "Yangi iboralarni yozib oling.",
+   "Qiziqarli o'rganish — davomli o'rganish."
+  ],
+  "caption": "Serial bilan til o'rganish. Qaysi serialni tavsiya qilasiz?",
+  "tags": [
+   "#ingliztili",
+   "#english",
+   "#til",
+   "#organish"
+  ]
+ },
+ {
+  "id": "h028",
+  "hook": "Birinchi videongiz yomon bo'ladi — normal.",
+  "lines": [
+   "Har bir blogger shundan boshlagan.",
+   "10-videoda o'sishni ko'rasiz.",
+   "Asosiysi — joylashni boshlash."
+  ],
+  "caption": "Birinchi video qo'rquvi. Siz birinchi videongizni joyladingizmi?",
+  "tags": [
+   "#blogger",
+   "#kontent",
+   "#instagramuz",
+   "#brend"
+  ]
+ },
+ {
+  "id": "h029",
+  "hook": "Ishdan charchab kelasizmi? Bu senga.",
+  "lines": [
+   "Kechqurun 30 daqiqa — kuchli qurol.",
+   "Bir yilda bu 180 soatdan ko'p bo'ladi.",
+   "Charchoq o'tadi, o'rgangan bilim qoladi."
+  ],
+  "caption": "Ishdan keyin o'rganish: kuniga 30 daqiqa. Sizda qancha vaqt bor?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h030",
+  "hook": "Takrorlash jadvali bormi?",
+  "lines": [
+   "1 kundan keyin takrorlang.",
+   "Keyin 3 kun, keyin 1 hafta.",
+   "Shunda bilim uzoq xotiraga o'tadi."
+  ],
+  "caption": "Oraliqli takrorlash ishlaydi. Qachon takrorlaysiz?",
+  "tags": [
+   "#organish",
+   "#bilim",
+   "#talim",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h031",
+  "hook": "GitHub nima va nega kerak?",
+  "lines": [
+   "Kodingizni saqlaydigan joy.",
+   "Ish beruvchilar uchun portfolio vazifasini bajaradi.",
+   "Har bir mashq loyihangizni shu yerga qo'ying."
+  ],
+  "caption": "GitHub — sizning portfoliongiz. GitHub profilingiz bormi?",
+  "tags": [
+   "#it",
+   "#dasturlash",
+   "#ituz",
+   "#kasb"
+  ]
+ },
+ {
+  "id": "h032",
+  "hook": "Kodda xato? AI'dan tushuntirishni so'rang.",
+  "lines": [
+   "Faqat to'g'ri kodni emas, sababini so'rang.",
+   "\"Nega bu xato?\" — eng foydali savol.",
+   "Keyin o'zingiz tuzatib ko'ring."
+  ],
+  "caption": "AI bilan xatoni tushunish. Siz AI'ga kod ko'rsatganmisiz?",
+  "tags": [
+   "#suniyintellekt",
+   "#ai",
+   "#claude",
+   "#texnologiya"
+  ]
+ },
+ {
+  "id": "h033",
+  "hook": "Zanjirni uzmang.",
+  "lines": [
+   "Har kuni bajarganingizni belgilang.",
+   "Belgilar zanjiri sizni ushlab turadi.",
+   "Bir kun qoldirsangiz — ikkinchi kunni qoldirmang."
+  ],
+  "caption": "Kunlik belgilash. Zanjiringiz necha kun?",
+  "tags": [
+   "#intizom",
+   "#odatlar",
+   "#vaqt",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h034",
+  "hook": "Ko'nikma — yangi daromad manbai.",
+  "lines": [
+   "Bir ko'nikmani chuqur o'rganing.",
+   "Uni xizmat sifatida taklif qiling.",
+   "Kichik buyurtmalardan boshlang."
+  ],
+  "caption": "Ko'nikmadan daromad. Siz qanday xizmat taklif qila olasiz?",
+  "tags": [
+   "#pul",
+   "#daromad",
+   "#kasb",
+   "#kelajak"
+  ]
+ },
+ {
+  "id": "h035",
+  "hook": "Uzoq ishdan keyin cho'zilish.",
+  "lines": [
+   "Oshxona yoki ofisda ko'p turasizmi?",
+   "Har kuni 5 daqiqa cho'zilish mashqi.",
+   "Tana yengillashadi, kayfiyat ko'tariladi."
+  ],
+  "caption": "Tana parvarishi. Siz qanday mashq qilasiz?",
+  "tags": [
+   "#sogliq",
+   "#uyqu",
+   "#energiya",
+   "#hayot"
+  ]
+ },
+ {
+  "id": "h036",
+  "hook": "Grammatikani emas, gapni o'rganing.",
+  "lines": [
+   "Tayyor iboralarni yod oling.",
+   "Ularni hayotda ishlating.",
+   "Grammatika asta-sekin o'zi tushunarli bo'ladi."
+  ],
+  "caption": "Iboralar bilan o'rganish. Sizning sevimli iborangiz?",
+  "tags": [
+   "#ingliztili",
+   "#english",
+   "#til",
+   "#organish"
+  ]
+ },
+ {
+  "id": "h037",
+  "hook": "Profilingiz — vizit kartangiz.",
+  "lines": [
+   "Bio'da kim ekaningiz va nima berishingizni yozing.",
+   "Aniq rasm qo'ying.",
+   "Eng yaxshi postlaringizni tepaga qo'ying."
+  ],
+  "caption": "Profil — vizitka. Sizning bio'ngiz nima deydi?",
+  "tags": [
+   "#blogger",
+   "#kontent",
+   "#instagramuz",
+   "#brend"
+  ]
+ },
+ {
+  "id": "h038",
+  "hook": "Atrofingizdagilar sizni pastga tortyaptimi?",
+  "lines": [
+   "Siz eng ko'p vaqt o'tkazgan 5 kishiga o'xshaysiz.",
+   "O'rganayotgan odamlar bilan ko'proq gaplashing.",
+   "Online jamoalar ham o'sha muhitni beradi."
+  ],
+  "caption": "Muhit natijani belgilaydi. Atrofingizda kim o'rganyapti?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h039",
+  "hook": "Boshqaga tushuntiring — o'zingiz tushunasiz.",
+  "lines": [
+   "Bugun o'rganganingizni do'stingizga ayting.",
+   "Tushuntira olmasangiz, hali tushunmagansiz.",
+   "Bu Feynman usuli deyiladi."
+  ],
+  "caption": "Tushuntirish orqali o'rganish. Bugun kimga nima tushuntirdingiz?",
+  "tags": [
+   "#organish",
+   "#bilim",
+   "#talim",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h040",
+  "hook": "Kiberxavfsizlik qiziqmi?",
+  "lines": [
+   "Avval tarmoq va Linux asoslarini o'rganing.",
+   "Keyin xavfsizlik tushunchalariga o'ting.",
+   "Faqat ruxsat berilgan, qonuniy mashq maydonlarida mashq qiling."
+  ],
+  "caption": "Kiberxavfsizlik yo'li: asoslardan. Bu soha sizga qiziqmi?",
+  "tags": [
+   "#it",
+   "#dasturlash",
+   "#ituz",
+   "#kasb"
+  ]
+ },
+ {
+  "id": "h041",
+  "hook": "AI bilan o'qish rejasi tuzing.",
+  "lines": [
+   "Maqsad va vaqtingizni ayting.",
+   "Haftalik reja so'rang.",
+   "Rejani o'zingizga moslab o'zgartiring."
+  ],
+  "caption": "AI bilan reja tuzish. Sizning o'qish rejangiz qanday?",
+  "tags": [
+   "#suniyintellekt",
+   "#ai",
+   "#claude",
+   "#texnologiya"
+  ]
+ },
+ {
+  "id": "h042",
+  "hook": "Yo'q deyishni o'rganing.",
+  "lines": [
+   "Har bir \"ha\" vaqtingizdan oladi.",
+   "Maqsadga yordam bermasa — xushmuomala \"yo'q\".",
+   "Vaqtingiz — eng qimmat resurs."
+  ],
+  "caption": "\"Yo'q\" deyish erkinlik beradi. Kimga \"yo'q\" deyish qiyin?",
+  "tags": [
+   "#intizom",
+   "#odatlar",
+   "#vaqt",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h043",
+  "hook": "\"Tez boyish\" va'dalariga ishonmang.",
+  "lines": [
+   "Kafolatlangan katta foyda va'da qilinsa — ehtiyot bo'ling.",
+   "Haqiqiy daromad vaqt va mehnat talab qiladi.",
+   "Pulingizni tekshirilmagan joyga bermang."
+  ],
+  "caption": "Firibgarlikdan ehtiyot bo'ling. Siz shunday taklif olganmisiz?",
+  "tags": [
+   "#pul",
+   "#daromad",
+   "#kasb",
+   "#kelajak"
+  ]
+ },
+ {
+  "id": "h044",
+  "hook": "Stress ko'p bo'lsa — nafas oling.",
+  "lines": [
+   "4 soniya nafas oling, 4 soniya ushlang, 4 soniya chiqaring.",
+   "Bir necha marta takrorlang.",
+   "Qiyinchilik davom etsa, mutaxassis bilan gaplashing."
+  ],
+  "caption": "Nafas mashqi tinchlantiradi. Siz stressni qanday yengasiz?",
+  "tags": [
+   "#sogliq",
+   "#uyqu",
+   "#energiya",
+   "#hayot"
+  ]
+ },
+ {
+  "id": "h045",
+  "hook": "Rus tilini ham kuchaytiring.",
+  "lines": [
+   "Ko'p ish joylarida rus tili kerak bo'ladi.",
+   "Kuniga bitta maqola o'qing.",
+   "Notanish so'zlarni yozib boring."
+  ],
+  "caption": "Rus tili ham foydali. Siz qaysi tillarni bilasiz?",
+  "tags": [
+   "#ingliztili",
+   "#english",
+   "#til",
+   "#organish"
+  ]
+ },
+ {
+  "id": "h046",
+  "hook": "Natijani emas, jarayonni ko'rsating.",
+  "lines": [
+   "\"Men 30 kundan beri Python o'rganyapman\" — qiziq.",
+   "Odamlar o'zini sizda ko'radi.",
+   "Halollik ishonch qozonadi."
+  ],
+  "caption": "Jarayonni ulashish. Siz nimani o'rganyapsiz?",
+  "tags": [
+   "#blogger",
+   "#kontent",
+   "#instagramuz",
+   "#brend"
+  ]
+ },
+ {
+  "id": "h047",
+  "hook": "Hamma narsani bir kunda o'zgartirmang.",
+  "lines": [
+   "Bir vaqtda bitta yangi odat.",
+   "U mustahkam bo'lgach, keyingisiga o'ting.",
+   "Sekin, lekin to'xtamasdan."
+  ],
+  "caption": "Bitta odat, keyin keyingisi. Hozir qaysi odat ustida ishlayapsiz?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h048",
+  "hook": "Ko'p narsani bir vaqtda o'rganmang.",
+  "lines": [
+   "Bir vaqtda bitta yo'nalish.",
+   "Asosini tugatmasdan keyingisiga o'tmang.",
+   "Chuqur bilim keng bilimdan kuchli."
+  ],
+  "caption": "Bitta yo'nalishga e'tibor. Hozir nimani o'rganyapsiz?",
+  "tags": [
+   "#organish",
+   "#bilim",
+   "#talim",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h049",
+  "hook": "Kompyuter yo'qmi? Baribir boshlash mumkin.",
+  "lines": [
+   "Telefonda ham asoslarni o'rganish mumkin.",
+   "Bepul online muhitlarda kod yozsa bo'ladi.",
+   "Imkon bo'lganda kompyuterga o'ting."
+  ],
+  "caption": "Telefondan boshlash ham mumkin. Siz nimada o'rganyapsiz?",
+  "tags": [
+   "#it",
+   "#dasturlash",
+   "#ituz",
+   "#kasb"
+  ]
+ },
+ {
+  "id": "h050",
+  "hook": "AI bilan til o'rganish.",
+  "lines": [
+   "AI bilan chet tilida suhbatlashing.",
+   "Xatolaringizni tuzatishni so'rang.",
+   "Har kuni 10 daqiqa suhbat."
+  ],
+  "caption": "AI bilan til mashqi. Qaysi tilni o'rganyapsiz?",
+  "tags": [
+   "#suniyintellekt",
+   "#ai",
+   "#claude",
+   "#texnologiya"
+  ]
+ },
+ {
+  "id": "h051",
+  "hook": "Eng qiyin ishni birinchi qiling.",
+  "lines": [
+   "Kun boshida kuch ko'p.",
+   "Qiyin ish tugasa, qolgani oson.",
+   "Bu \"qurbaqani yeyish\" deyiladi."
+  ],
+  "caption": "Qiyin ish birinchi. Bugungi eng qiyin ishingiz nima?",
+  "tags": [
+   "#intizom",
+   "#odatlar",
+   "#vaqt",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h052",
+  "hook": "Kasbingizni o'zgartirish — xavf emas, reja.",
+  "lines": [
+   "Avval yangi kasbni kechqurun sinab ko'ring.",
+   "Zaxira pul yig'ing.",
+   "Keyin bosqichma-bosqich o'ting."
+  ],
+  "caption": "Kasb almashtirish rejasi. Siz qaysi kasbga o'tmoqchisiz?",
+  "tags": [
+   "#pul",
+   "#daromad",
+   "#kasb",
+   "#kelajak"
+  ]
+ },
+ {
+  "id": "h053",
+  "hook": "Sport — o'rganishga yordamchi.",
+  "lines": [
+   "Jismoniy faollik kayfiyatni yaxshilaydi.",
+   "Haftada 3 marta 20 daqiqa ham foydali.",
+   "Oddiy uy mashqlaridan boshlang."
+  ],
+  "caption": "Sport va miya. Siz haftada necha marta sport qilasiz?",
+  "tags": [
+   "#sogliq",
+   "#uyqu",
+   "#energiya",
+   "#hayot"
+  ]
+ },
+ {
+  "id": "h054",
+  "hook": "Telefoningiz tilini o'zgartiring.",
+  "lines": [
+   "Telefon tilini o'rganayotgan tilga qo'ying.",
+   "Har kuni yangi so'zlarni ko'rasiz.",
+   "Oddiy, lekin samarali usul."
+  ],
+  "caption": "Telefon tili usuli. Sinab ko'rasizmi?",
+  "tags": [
+   "#ingliztili",
+   "#english",
+   "#til",
+   "#organish"
+  ]
+ },
+ {
+  "id": "h055",
+  "hook": "LinkedIn profilingiz bormi?",
+  "lines": [
+   "Kasbiy aloqalar uchun foydali tarmoq.",
+   "Loyihalaringizni u yerda ham ko'rsating.",
+   "Mutaxassislar bilan tanishing."
+  ],
+  "caption": "Kasbiy tarmoq. Sizda LinkedIn bormi?",
+  "tags": [
+   "#blogger",
+   "#kontent",
+   "#instagramuz",
+   "#brend"
+  ]
+ },
+ {
+  "id": "h056",
+  "hook": "Motivatsiya kutayapsizmi? Kutmang.",
+  "lines": [
+   "Motivatsiya keladi va ketadi.",
+   "Odat esa motivatsiya yo'q kunda ham ishlaydi.",
+   "Kayfiyat emas, jadval sizni olib boradi."
+  ],
+  "caption": "Motivatsiyadan ko'ra odat muhim. Sizni nima harakatga keltiradi?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h057",
+  "hook": "Eng yaxshi vaqtni toping.",
+  "lines": [
+   "Kimdir ertalab, kimdir kechqurun yaxshi o'ylaydi.",
+   "Bir hafta kuzating: qachon miyangiz tiniq?",
+   "O'sha vaqtni o'rganishga bering."
+  ],
+  "caption": "Miyangiz qachon yaxshi ishlaydi? Ertalabmi yoki kechqurun?",
+  "tags": [
+   "#organish",
+   "#bilim",
+   "#talim",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h058",
+  "hook": "Ingliz tilisiz IT qiyinmi?",
+  "lines": [
+   "Ko'p hujjatlar ingliz tilida.",
+   "Texnik inglizcha oddiy so'zlashuvdan oson.",
+   "Kod bilan birga so'zlarni ham o'rganing."
+  ],
+  "caption": "IT va ingliz tili birga. Inglizchangiz qanday darajada?",
+  "tags": [
+   "#it",
+   "#dasturlash",
+   "#ituz",
+   "#kasb"
+  ]
+ },
+ {
+  "id": "h059",
+  "hook": "AI sizni almashtiradimi?",
+  "lines": [
+   "AI'dan foydalana oladigan odamlar ustunlikka ega bo'ladi.",
+   "Vositani o'rganing, undan qo'rqmang.",
+   "Inson fikri va mas'uliyati baribir kerak."
+  ],
+  "caption": "AI vosita, raqib emas. Siz AI haqida qanday o'ylaysiz?",
+  "tags": [
+   "#suniyintellekt",
+   "#ai",
+   "#claude",
+   "#texnologiya"
+  ]
+ },
+ {
+  "id": "h060",
+  "hook": "Ijtimoiy tarmoqqa vaqt chegarasi.",
+  "lines": [
+   "Ilovalarga kunlik limit qo'ying.",
+   "Limit tugasa — yoping.",
+   "Bo'shagan vaqtni o'rganishga bering."
+  ],
+  "caption": "Vaqt chegarasi qo'ying. Qaysi ilovada ko'p o'tirasiz?",
+  "tags": [
+   "#intizom",
+   "#odatlar",
+   "#vaqt",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h061",
+  "hook": "Ish haqi emas, o'sish imkoniyati.",
+  "lines": [
+   "Birinchi ishda tajriba puldan qimmat bo'lishi mumkin.",
+   "Nimani o'rganasiz — shuni so'rang.",
+   "Tajriba keyinroq daromadga aylanadi."
+  ],
+  "caption": "Birinchi ish: o'sish muhim. Ishingizda nimani o'rganyapsiz?",
+  "tags": [
+   "#pul",
+   "#daromad",
+   "#kasb",
+   "#kelajak"
+  ]
+ },
+ {
+  "id": "h062",
+  "hook": "Ovqatlanish ham energiya.",
+  "lines": [
+   "Og'ir ovqatdan keyin o'qish qiyinlashadi.",
+   "O'qishdan oldin yengil ovqat yaxshiroq.",
+   "Shirinlikni kamaytiring — energiya barqaror bo'ladi."
+  ],
+  "caption": "Ovqat va diqqat. Siz o'qishdan oldin nima yeysiz?",
+  "tags": [
+   "#sogliq",
+   "#uyqu",
+   "#energiya",
+   "#hayot"
+  ]
+ },
+ {
+  "id": "h063",
+  "hook": "Muvaffaqiyatsizlikdan qo'rqasizmi?",
+  "lines": [
+   "Xato — o'rganishning bir qismi.",
+   "Har bir xato keyingi urinishni yaxshilaydi.",
+   "Eng katta xato — umuman urinmaslik."
+  ],
+  "caption": "Xato qilish — o'rganish. Oxirgi xatoingizdan nima o'rgandingiz?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h064",
+  "hook": "Qo'lda yozing.",
+  "lines": [
+   "Qo'lda yozish yaxshiroq eslab qolishga yordam beradi.",
+   "Qisqa, o'z so'zlaringiz bilan.",
+   "Kitobdan ko'chirmang — mazmunini yozing."
+  ],
+  "caption": "Qo'lda konspekt. Siz daftar yuritasizmi?",
+  "tags": [
+   "#organish",
+   "#bilim",
+   "#talim",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h065",
+  "hook": "Birinchi loyiha g'oyalari.",
+  "lines": [
+   "Shaxsiy xarajatlar hisoblagichi.",
+   "Oddiy to-do ro'yxati ilovasi.",
+   "O'zingiz haqingizda bir sahifalik sayt."
+  ],
+  "caption": "Birinchi loyiha: oddiydan. Siz qaysi birini qilasiz?",
+  "tags": [
+   "#it",
+   "#dasturlash",
+   "#ituz",
+   "#kasb"
+  ]
+ },
+ {
+  "id": "h066",
+  "hook": "Uy vazifasini AI'ga topshirmang.",
+  "lines": [
+   "AI yozib bersa — siz o'rganmaysiz.",
+   "Undan maslahat va tushuntirish oling.",
+   "Yechimni o'zingiz yozing."
+  ],
+  "caption": "AI bilan halol o'rganish. Siz AI'ni qanday ishlatasiz?",
+  "tags": [
+   "#suniyintellekt",
+   "#ai",
+   "#claude",
+   "#texnologiya"
+  ]
+ },
+ {
+  "id": "h067",
+  "hook": "Haftalik reja — yakshanba kuni.",
+  "lines": [
+   "Haftaning 3 ta asosiy maqsadini yozing.",
+   "Har kunga kichik qadam taqsimlang.",
+   "Juma kuni tekshiring."
+  ],
+  "caption": "Haftalik reja. Bu haftaning 3 ta maqsadi nima?",
+  "tags": [
+   "#intizom",
+   "#odatlar",
+   "#vaqt",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h068",
+  "hook": "Ruhiy salomatlik ham muhim.",
+  "lines": [
+   "Charchoq va xafalikni e'tiborsiz qoldirmang.",
+   "Yaqinlaringiz bilan gaplashing.",
+   "Kerak bo'lsa, mutaxassisdan yordam so'rash — normal."
+  ],
+  "caption": "Ruhiy salomatlik. Siz kim bilan dardlashasiz?",
+  "tags": [
+   "#sogliq",
+   "#uyqu",
+   "#energiya",
+   "#hayot"
+  ]
+ },
+ {
+  "id": "h069",
+  "hook": "Boshqalar bilan solishtirishni to'xtating.",
+  "lines": [
+   "Ularning 10-bobini o'zingizning 1-bobingiz bilan solishtirmang.",
+   "Kechagi o'zingiz bilan solishtiring.",
+   "Har kuni 1% yaxshiroq bo'lish yetarli."
+  ],
+  "caption": "O'zingizni faqat kechagi o'zingiz bilan solishtiring. Kechadan nima yaxshilandi?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h070",
+  "hook": "Xatolar daftarini yuriting.",
+  "lines": [
+   "Har bir xatoni yozib boring.",
+   "Haftada bir marta ko'rib chiqing.",
+   "Bir xil xato ikki marta takrorlanmaydi."
+  ],
+  "caption": "Xatolar daftari — tez o'sish yo'li. Eng ko'p takrorlaydigan xatoingiz?",
+  "tags": [
+   "#organish",
+   "#bilim",
+   "#talim",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h071",
+  "hook": "Xato chiqdi? Dasturchi bo'lyapsiz.",
+  "lines": [
+   "Xatolar — dasturchining kundalik ishi.",
+   "Xato matnini diqqat bilan o'qing.",
+   "Uni qidiruvga yoki AI'ga bering."
+  ],
+  "caption": "Xatolar dasturlashning bir qismi. Eng ko'p qanday xatoga duch kelasiz?",
+  "tags": [
+   "#it",
+   "#dasturlash",
+   "#ituz",
+   "#kasb"
+  ]
+ },
+ {
+  "id": "h072",
+  "hook": "AI bilan intervyuga tayyorlaning.",
+  "lines": [
+   "\"Menga intervyuer bo'l\" deb so'rang.",
+   "Savollarga javob bering, baho so'rang.",
+   "Zaif joylarni mashq qiling."
+  ],
+  "caption": "AI bilan intervyu mashqi. Sinab ko'rasizmi?",
+  "tags": [
+   "#suniyintellekt",
+   "#ai",
+   "#claude",
+   "#texnologiya"
+  ]
+ },
+ {
+  "id": "h073",
+  "hook": "Charchagan kunlar uchun minimal reja.",
+  "lines": [
+   "Hech bo'lmasa 5 daqiqa qiling.",
+   "Minimal reja zanjirni saqlaydi.",
+   "Ertaga kuch bilan davom eting."
+  ],
+  "caption": "Minimal reja yordam beradi. Charchagan kuni nima qilasiz?",
+  "tags": [
+   "#intizom",
+   "#odatlar",
+   "#vaqt",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h074",
+  "hook": "Maqsadingiz bormi yoki orzu?",
+  "lines": [
+   "Orzu — \"bir kun IT'chi bo'laman\".",
+   "Maqsad — \"6 oyda Python asoslarini o'rganaman\".",
+   "Aniq muddat va aniq natija yozing."
+  ],
+  "caption": "Orzuni maqsadga aylantiring. 6 oylik maqsadingiz nima?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h075",
+  "hook": "Loyiha bilan o'rganing.",
+  "lines": [
+   "Nazariya emas, kichik loyiha tanlang.",
+   "Loyiha qilayotganda kerakli narsani o'rganasiz.",
+   "Oxirida ko'rsatadigan natijangiz bo'ladi."
+  ],
+  "caption": "Loyiha orqali o'rganish. Birinchi loyihangiz nima bo'ladi?",
+  "tags": [
+   "#organish",
+   "#bilim",
+   "#talim",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h076",
+  "hook": "Dizayn ham IT kasbi.",
+  "lines": [
+   "UI/UX dizayn — ilovalar ko'rinishini yasash.",
+   "Kod kamroq, ko'proq vizual fikrlash.",
+   "Figma kabi bepul vositalardan boshlang."
+  ],
+  "caption": "Dizayn ham IT. Sizga kod yoqadimi yoki dizayn?",
+  "tags": [
+   "#it",
+   "#dasturlash",
+   "#ituz",
+   "#kasb"
+  ]
+ },
+ {
+  "id": "h077",
+  "hook": "Murakkab matnni soddalashtiring.",
+  "lines": [
+   "Qiyin maqolani AI'ga bering.",
+   "\"5 ta asosiy fikrni ayt\" deng.",
+   "Keyin asl matnni o'zingiz o'qing."
+  ],
+  "caption": "AI bilan qiyin matnni tushunish. Qaysi mavzu sizga qiyin?",
+  "tags": [
+   "#suniyintellekt",
+   "#ai",
+   "#claude",
+   "#texnologiya"
+  ]
+ },
+ {
+  "id": "h078",
+  "hook": "Vaqtni yozib ko'ring.",
+  "lines": [
+   "Bir kun davomida har soatni yozing.",
+   "Vaqt qayerga ketayotganini ko'rasiz.",
+   "Keyin bitta yo'qotishni tuzating."
+  ],
+  "caption": "Vaqt auditi. Vaqtingiz qayerga ketyapti?",
+  "tags": [
+   "#intizom",
+   "#odatlar",
+   "#vaqt",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h079",
+  "hook": "Telefoningiz kuningizni o'g'irlayapti.",
+  "lines": [
+   "Ekran vaqtini tekshirib ko'ring.",
+   "Kuniga 3 soat — yiliga 1000 soatdan ko'p.",
+   "Shundan 1 soatini o'rganishga bering."
+  ],
+  "caption": "Ekran vaqti haqida o'ylang. Kecha telefonda necha soat o'tkazdingiz?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h080",
+  "hook": "Diqqatingiz tarqalyaptimi?",
+  "lines": [
+   "Bildirishnomalarni o'chiring.",
+   "Bitta oyna, bitta vazifa.",
+   "Diqqat — mashq qilinadigan mushak."
+  ],
+  "caption": "Diqqatni mashq qiling. Sizni eng ko'p nima chalg'itadi?",
+  "tags": [
+   "#organish",
+   "#bilim",
+   "#talim",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h081",
+  "hook": "Frilans bilan tajriba to'plang.",
+  "lines": [
+   "Kichik buyurtmalardan boshlang.",
+   "Har bir ish portfolioga qo'shiladi.",
+   "Sharh va tavsiyalar keyingi ishni olib keladi."
+  ],
+  "caption": "Frilans — tajriba yo'li. Birinchi buyurtmangiz bo'lganmi?",
+  "tags": [
+   "#it",
+   "#dasturlash",
+   "#ituz",
+   "#kasb"
+  ]
+ },
+ {
+  "id": "h082",
+  "hook": "Shaxsiy ma'lumotlarni ehtiyot qiling.",
+  "lines": [
+   "Parol va karta raqamini hech qayerga yozmang.",
+   "Maxfiy hujjatlarni o'ylab ulashing.",
+   "Xavfsizlik — birinchi qoida."
+  ],
+  "caption": "AI va xavfsizlik. Siz ma'lumotlaringizni qanday himoya qilasiz?",
+  "tags": [
+   "#suniyintellekt",
+   "#ai",
+   "#claude",
+   "#texnologiya"
+  ]
+ },
+ {
+  "id": "h083",
+  "hook": "Multitasking — afsona.",
+  "lines": [
+   "Miya bir vaqtda bitta ishga yaxshi e'tibor beradi.",
+   "Almashtirish vaqt va kuch yo'qotadi.",
+   "Bitta ishni tugating, keyin keyingisi."
+  ],
+  "caption": "Bir vaqtda bitta ish. Siz bir vaqtda nechta ish qilasiz?",
+  "tags": [
+   "#intizom",
+   "#odatlar",
+   "#vaqt",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h084",
+  "hook": "Kichik g'alabalarni nishonlang.",
+  "lines": [
+   "Bir dars tugatdingizmi? Bu g'alaba.",
+   "Miyangiz mukofotni eslab qoladi.",
+   "Kichik g'alabalar katta natijaga olib keladi."
+  ],
+  "caption": "Kichik g'alabalar muhim. Bugungi g'alabangiz nima?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h085",
+  "hook": "Uyqudan oldin 10 daqiqa takrorlang.",
+  "lines": [
+   "Uyqu vaqtida miya bilimni saqlaydi.",
+   "Kechqurun qisqa takrorlash foydali.",
+   "Ertalab yana bir marta tekshiring."
+  ],
+  "caption": "Uyqudan oldin takrorlash. Siz kechqurun nima o'qiysiz?",
+  "tags": [
+   "#organish",
+   "#bilim",
+   "#talim",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h086",
+  "hook": "Rezyume — bir sahifa.",
+  "lines": [
+   "Ko'nikmalar, loyihalar, aloqa.",
+   "Har bir loyihaga havola qo'ying.",
+   "Ortiqcha so'zlarni olib tashlang."
+  ],
+  "caption": "Rezyume: qisqa va aniq. Rezyumengiz tayyormi?",
+  "tags": [
+   "#it",
+   "#dasturlash",
+   "#ituz",
+   "#kasb"
+  ]
+ },
+ {
+  "id": "h087",
+  "hook": "AI bilan rezyume yaxshilang.",
+  "lines": [
+   "Rezyumengizni bering va maslahat so'rang.",
+   "Yolg'on qo'shmang — faqat bor narsani yaxshi yozing.",
+   "Oxirgi variantni o'zingiz tekshiring."
+  ],
+  "caption": "AI bilan rezyume. Rezyumengizni yangilaganmisiz?",
+  "tags": [
+   "#suniyintellekt",
+   "#ai",
+   "#claude",
+   "#texnologiya"
+  ]
+ },
+ {
+  "id": "h088",
+  "hook": "Kechqurun telefonni uzoqroq qo'ying.",
+  "lines": [
+   "Yotishdan 30 daqiqa oldin ekransiz.",
+   "Uyqu sifati yaxshilanadi.",
+   "Ertalab tiniq bosh bilan turasiz."
+  ],
+  "caption": "Ekransiz kechqurun. Siz yotishdan oldin nima qilasiz?",
+  "tags": [
+   "#intizom",
+   "#odatlar",
+   "#vaqt",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h089",
+  "hook": "Nimadan boshlashni bilmayapsizmi?",
+  "lines": [
+   "Qiziq bo'lgan 3 ta yo'nalishni yozing.",
+   "Har biriga bir hafta sinov bering.",
+   "Ko'proq yoqqanini davom ettiring."
+  ],
+  "caption": "Yo'nalish tanlash: 3 hafta sinov. Qaysi 3 sohani tanlaysiz?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h090",
+  "hook": "Savol bilan o'qing.",
+  "lines": [
+   "O'qishdan oldin: \"Men nimani bilmoqchiman?\"",
+   "Miya javob qidiradi va diqqat kuchayadi.",
+   "Oxirida javobni yozing."
+  ],
+  "caption": "Savol bilan o'qish. Bugungi savolingiz nima?",
+  "tags": [
+   "#organish",
+   "#bilim",
+   "#talim",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h091",
+  "hook": "Linux'dan qo'rqmang.",
+  "lines": [
+   "Serverlarning katta qismi Linux'da ishlaydi.",
+   "Asosiy buyruqlar: fayllar va papkalar bilan ishlash.",
+   "Kuniga 5 ta yangi buyruq o'rganing."
+  ],
+  "caption": "Linux asoslari IT'da foydali. Siz Linux ishlatganmisiz?",
+  "tags": [
+   "#it",
+   "#dasturlash",
+   "#ituz",
+   "#kasb"
+  ]
+ },
+ {
+  "id": "h092",
+  "hook": "AI bilan g'oya toping.",
+  "lines": [
+   "\"Menga 10 ta loyiha g'oyasi ber\" deng.",
+   "Eng qiziqarlisini tanlang.",
+   "G'oya — boshlanish, ish — sizdan."
+  ],
+  "caption": "AI bilan g'oya. Sizga qanday g'oya kerak?",
+  "tags": [
+   "#suniyintellekt",
+   "#ai",
+   "#claude",
+   "#texnologiya"
+  ]
+ },
+ {
+  "id": "h093",
+  "hook": "Ishlar ro'yxati emas — ustuvorlik ro'yxati.",
+  "lines": [
+   "Hamma ish bir xil muhim emas.",
+   "Eng muhim 1 tasini belgilang.",
+   "Avval o'shani tugating."
+  ],
+  "caption": "Ustuvorlik muhim. Bugun eng muhim ishingiz nima?",
+  "tags": [
+   "#intizom",
+   "#odatlar",
+   "#vaqt",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h094",
+  "hook": "Oilangiz tushunmasa ham davom eting.",
+  "lines": [
+   "Hamma ham yangi yo'lingizni darrov tushunmaydi.",
+   "Gap bilan emas, natija bilan ko'rsating.",
+   "Hurmat saqlang, lekin maqsadni tashlamang."
+  ],
+  "caption": "Yaqinlar har doim ham tushunmaydi. Sizni kim qo'llab-quvvatlaydi?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h095",
+  "hook": "Qiyin mavzuni bo'laklarga bo'ling.",
+  "lines": [
+   "Katta mavzu qo'rqitadi.",
+   "Uni 5-10 ta kichik qismga bo'ling.",
+   "Har kuni bitta qism — va u tugaydi."
+  ],
+  "caption": "Katta vazifani bo'laklang. Qaysi mavzu sizni qo'rqitadi?",
+  "tags": [
+   "#organish",
+   "#bilim",
+   "#talim",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h096",
+  "hook": "Ma'lumotlar tahlili — talabdagi yo'nalish.",
+  "lines": [
+   "Excel'dan boshlang.",
+   "Keyin SQL va Python.",
+   "Raqamlardan xulosa chiqarish — qimmat ko'nikma."
+  ],
+  "caption": "Data tahlil yo'nalishi. Excel'ni qanchalik bilasiz?",
+  "tags": [
+   "#it",
+   "#dasturlash",
+   "#ituz",
+   "#kasb"
+  ]
+ },
+ {
+  "id": "h097",
+  "hook": "Har kuni AI'dan bitta narsa o'rganing.",
+  "lines": [
+   "\"Bugun menga bitta foydali tushuncha o'rgat\".",
+   "Uni o'z so'zingiz bilan yozing.",
+   "30 kunda 30 ta yangi bilim."
+  ],
+  "caption": "Kunlik AI darsi. Bugun nima o'rgandingiz?",
+  "tags": [
+   "#suniyintellekt",
+   "#ai",
+   "#claude",
+   "#texnologiya"
+  ]
+ },
+ {
+  "id": "h098",
+  "hook": "Intizom — o'zingizga bergan va'da.",
+  "lines": [
+   "Kichik va'dalarni bajaring.",
+   "Har bir bajarilgan va'da ishonch beradi.",
+   "O'zingizga ishonish shunday quriladi."
+  ],
+  "caption": "O'zingizga va'da bering va bajaring. Bugungi va'dangiz?",
+  "tags": [
+   "#intizom",
+   "#odatlar",
+   "#vaqt",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h099",
+  "hook": "Bir yildan keyin qayerda bo'lasiz?",
+  "lines": [
+   "Bugun nima qilsangiz, bir yildan keyin o'shani olasiz.",
+   "Hech narsa qilmasangiz, hech narsa o'zgarmaydi.",
+   "Bugungi kunni kelajak uchun ishlating."
+  ],
+  "caption": "Bir yillik reja: bugundan boshlanadi. Bir yildan keyin kim bo'lishni xohlaysiz?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h100",
+  "hook": "Mukammal bo'lishni kutmang.",
+  "lines": [
+   "Avval yomon qiling, keyin yaxshilang.",
+   "Mukammallik — kechiktirishning boshqa nomi.",
+   "Tugatilgan ish mukammaldan yaxshi."
+  ],
+  "caption": "Mukammallik kechiktiradi. Nimani mukammal bo'lmagani uchun boshlamadingiz?",
+  "tags": [
+   "#organish",
+   "#bilim",
+   "#talim",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h101",
+  "hook": "Har kuni bir masala yeching.",
+  "lines": [
+   "Mashq saytlarida oddiy masalalar bor.",
+   "Kuniga bitta — mantiq kuchayadi.",
+   "Javobni ko'rishdan oldin 20 daqiqa o'ylang."
+  ],
+  "caption": "Kunlik masala mantiqni o'stiradi. Bugun masala yechdingizmi?",
+  "tags": [
+   "#it",
+   "#dasturlash",
+   "#ituz",
+   "#kasb"
+  ]
+ },
+ {
+  "id": "h102",
+  "hook": "AI bilan vaqtni tejang.",
+  "lines": [
+   "Takroriy ishlarni AI'ga bering.",
+   "Bo'shagan vaqtni o'rganishga sarflang.",
+   "Ish emas, natija muhim."
+  ],
+  "caption": "AI vaqt tejaydi. Qaysi ishni AI'ga topshirasiz?",
+  "tags": [
+   "#suniyintellekt",
+   "#ai",
+   "#claude",
+   "#texnologiya"
+  ]
+ },
+ {
+  "id": "h103",
+  "hook": "Muhitni o'zgartiring.",
+  "lines": [
+   "Kitobni stol ustiga, telefonni boshqa xonaga.",
+   "To'g'ri tanlov oson bo'lsin.",
+   "Iroda emas, muhit ishlaydi."
+  ],
+  "caption": "Muhitni sozlang. Qaysi narsani joyini o'zgartirasiz?",
+  "tags": [
+   "#intizom",
+   "#odatlar",
+   "#vaqt",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h104",
+  "hook": "Qulay zonadan chiqmasangiz o'smaysiz.",
+  "lines": [
+   "Qiyin narsa — o'sayotganingiz belgisi.",
+   "Har hafta bitta qo'rqinchli ish qiling.",
+   "Noqulaylik vaqtinchalik, o'sish doimiy."
+  ],
+  "caption": "O'sish noqulaylikda. Bu hafta qanday qiyin ish qildingiz?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h105",
+  "hook": "Mentor toping.",
+  "lines": [
+   "Sizdan 2-3 qadam oldindagi odam.",
+   "Unga aniq, qisqa savol bering.",
+   "Vaqtini hurmat qiling — natija ko'rsating."
+  ],
+  "caption": "Mentor yo'lni qisqartiradi. Sizda mentor bormi?",
+  "tags": [
+   "#organish",
+   "#bilim",
+   "#talim",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h106",
+  "hook": "Stajirovka qidiring.",
+  "lines": [
+   "Kichik kompaniyalar ko'proq imkon beradi.",
+   "Bepul bo'lsa ham tajriba qimmat.",
+   "Portfolio bilan murojaat qiling."
+  ],
+  "caption": "Stajirovka — birinchi qadam. Siz qayerga murojaat qilgansiz?",
+  "tags": [
+   "#it",
+   "#dasturlash",
+   "#ituz",
+   "#kasb"
+  ]
+ },
+ {
+  "id": "h107",
+  "hook": "AI chizgan rasm — sizning g'oyangiz.",
+  "lines": [
+   "Tavsif qanchalik aniq bo'lsa, natija shunchalik yaxshi.",
+   "Uslub, rang, kayfiyatni yozing.",
+   "Bir necha variant sinab ko'ring."
+  ],
+  "caption": "AI bilan ijod. Siz AI bilan rasm yasaganmisiz?",
+  "tags": [
+   "#suniyintellekt",
+   "#ai",
+   "#claude",
+   "#texnologiya"
+  ]
+ },
+ {
+  "id": "h108",
+  "hook": "Juma kuni — kichik yakun.",
+  "lines": [
+   "Hafta davomida nima o'rgandingiz?",
+   "Bitta eng yaxshi natijani yozing.",
+   "O'zingizga rahmat ayting."
+  ],
+  "caption": "Haftalik yakun. Bu haftaning eng yaxshi natijasi?",
+  "tags": [
+   "#intizom",
+   "#odatlar",
+   "#vaqt",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h109",
+  "hook": "Bahona topish oson, vaqt topish qiyin.",
+  "lines": [
+   "\"Vaqtim yo'q\" ko'pincha \"muhim emas\" degani.",
+   "Muhim narsaga vaqt doim topiladi.",
+   "Kunlik jadvalingizni bir ko'rib chiqing."
+  ],
+  "caption": "Vaqt yo'qmi yoki ustuvorlik? Eng ko'p ishlatadigan bahonangiz qaysi?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h110",
+  "hook": "Kurs tanlashda adashmang.",
+  "lines": [
+   "Avval sharhlar va dastur mazmunini ko'ring.",
+   "Amaliy topshiriqlar bormi — tekshiring.",
+   "Bepul qismidan boshlang."
+  ],
+  "caption": "Kurs tanlash: amaliyot muhim. Qaysi kursni o'tyapsiz?",
+  "tags": [
+   "#organish",
+   "#bilim",
+   "#talim",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h111",
+  "hook": "Texnik intervyudan qo'rqmang.",
+  "lines": [
+   "Bilmasangiz — qanday o'ylayotganingizni ayting.",
+   "Fikrlash jarayoni javobdan muhim.",
+   "Har bir intervyu — mashq."
+  ],
+  "caption": "Intervyu — mashq. Birinchi intervyungiz qanday o'tgan?",
+  "tags": [
+   "#it",
+   "#dasturlash",
+   "#ituz",
+   "#kasb"
+  ]
+ },
+ {
+  "id": "h112",
+  "hook": "AI bilan xatni tekshiring.",
+  "lines": [
+   "Muhim xabarni yozing va tekshirishni so'rang.",
+   "Ohang va aniqlik haqida fikr oling.",
+   "Oxirgi qaror sizniki."
+  ],
+  "caption": "AI muharrir. Siz muhim xatlarni qanday yozasiz?",
+  "tags": [
+   "#suniyintellekt",
+   "#ai",
+   "#claude",
+   "#texnologiya"
+  ]
+ },
+ {
+  "id": "h113",
+  "hook": "Taymer qo'ying.",
+  "lines": [
+   "Vazifaga aniq vaqt bering.",
+   "Vaqt chegarasi diqqatni oshiradi.",
+   "Taymer tugaguncha boshqa ishga o'tmang."
+  ],
+  "caption": "Taymer bilan ishlash. Siz taymer ishlatasizmi?",
+  "tags": [
+   "#intizom",
+   "#odatlar",
+   "#vaqt",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h114",
+  "hook": "Kitob o'qimaysizmi? Kuniga 10 bet.",
+  "lines": [
+   "10 bet — atigi 15 daqiqa.",
+   "Bir yilda 12 tadan ortiq kitob.",
+   "Audio kitob ham hisoblanadi."
+  ],
+  "caption": "Kuniga 10 bet o'qish. Hozir qaysi kitobni o'qiyapsiz?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h115",
+  "hook": "Yo'lda ham o'rganing.",
+  "lines": [
+   "Avtobusda podkast yoki audio dars.",
+   "Navbatda 5 ta so'z takrorlash.",
+   "Bo'sh daqiqalar yig'ilib soatga aylanadi."
+  ],
+  "caption": "Bo'sh daqiqalardan foydalaning. Yo'lda nima tinglaysiz?",
+  "tags": [
+   "#organish",
+   "#bilim",
+   "#talim",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h116",
+  "hook": "IT'da ham uzluksiz o'rganish kerak.",
+  "lines": [
+   "Texnologiyalar tez o'zgaradi.",
+   "Haftada bir yangilikni o'qing.",
+   "Asoslar o'zgarmaydi — ularni chuqur biling."
+  ],
+  "caption": "IT'da o'rganish to'xtamaydi. Yangiliklarni qayerdan kuzatasiz?",
+  "tags": [
+   "#it",
+   "#dasturlash",
+   "#ituz",
+   "#kasb"
+  ]
+ },
+ {
+  "id": "h117",
+  "hook": "AI'ga \"nima uchun?\" deb so'rang.",
+  "lines": [
+   "Faqat javob emas, sababni tushuning.",
+   "\"Nima uchun\" savoli chuqur bilim beradi.",
+   "Bolalardek qiziquvchan bo'ling."
+  ],
+  "caption": "\"Nima uchun?\" — eng kuchli savol. Bugun nimaga qiziqdingiz?",
+  "tags": [
+   "#suniyintellekt",
+   "#ai",
+   "#claude",
+   "#texnologiya"
+  ]
+ },
+ {
+  "id": "h118",
+  "hook": "Yomon odatni almashtiring.",
+  "lines": [
+   "Yomon odatni shunchaki tashlash qiyin.",
+   "Uni foydali odat bilan almashtiring.",
+   "Masalan: lentani aylantirish o'rniga 1 bet o'qish."
+  ],
+  "caption": "Odatni almashtirish. Qaysi odatni almashtirmoqchisiz?",
+  "tags": [
+   "#intizom",
+   "#odatlar",
+   "#vaqt",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h119",
+  "hook": "Tanqiddan qo'rqmang.",
+  "lines": [
+   "Siz harakat qilsangiz, gapiradiganlar bo'ladi.",
+   "Foydali tanqidni oling, qolganini qo'yib yuboring.",
+   "Hech narsa qilmaganni hech kim tanqid qilmaydi."
+  ],
+  "caption": "Tanqid harakat belgisi. Tanqidga qanday javob berasiz?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h120",
+  "hook": "Hamma narsani yod olmang.",
+  "lines": [
+   "Tushunish yod olishdan muhim.",
+   "Kerak bo'lsa qidirib topishni o'rganing.",
+   "Asosiy tushunchalarni chuqur biling."
+  ],
+  "caption": "Yod olish emas, tushunish. Siz qanday o'rganasiz?",
+  "tags": [
+   "#organish",
+   "#bilim",
+   "#talim",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h121",
+  "hook": "Kodni nusxalamang — tushuning.",
+  "lines": [
+   "Nusxa olish tez, lekin bilim bermaydi.",
+   "Har bir qatorni nima qilishini tushuning.",
+   "Keyin o'zingiz qayta yozing."
+  ],
+  "caption": "Nusxa emas, tushunish. Siz kodni qanday o'rganasiz?",
+  "tags": [
+   "#it",
+   "#dasturlash",
+   "#ituz",
+   "#kasb"
+  ]
+ },
+ {
+  "id": "h122",
+  "hook": "AI bilan murabbiy.",
+  "lines": [
+   "Haftalik maqsadlaringizni ayting.",
+   "Hafta oxirida hisobot bering.",
+   "AI sizga savol berib, fikrlashga yordam beradi."
+  ],
+  "caption": "AI bilan maqsad nazorati. Bu haftalik maqsadingiz nima?",
+  "tags": [
+   "#suniyintellekt",
+   "#ai",
+   "#claude",
+   "#texnologiya"
+  ]
+ },
+ {
+  "id": "h123",
+  "hook": "Uyquga vaqtida yoting.",
+  "lines": [
+   "Har kuni bir vaqtda yoting va turing.",
+   "Tartib miyani dam oldiradi.",
+   "Yaxshi uyqu — yaxshi o'rganish."
+  ],
+  "caption": "Uyqu tartibi. Siz soat nechada yotasiz?",
+  "tags": [
+   "#intizom",
+   "#odatlar",
+   "#vaqt",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h124",
+  "hook": "Yolg'iz o'rganish qiyinmi? Sherik toping.",
+  "lines": [
+   "Birga o'rganadigan do'st toping.",
+   "Har hafta bir-biringizga natija ko'rsating.",
+   "Mas'uliyat ikki baravar kuchayadi."
+  ],
+  "caption": "Sherik bilan o'rganish oson. Siz kim bilan birga o'rganasiz?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h125",
+  "hook": "Haftalik test qiling.",
+  "lines": [
+   "Hafta oxirida o'zingizga 5 ta savol bering.",
+   "Javob bera olmaganlarni qayta o'rganing.",
+   "Test — eng yaxshi takrorlash."
+  ],
+  "caption": "O'zingizni tekshiring. Bu hafta o'zingizga test qildingizmi?",
+  "tags": [
+   "#organish",
+   "#bilim",
+   "#talim",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h126",
+  "hook": "Dasturchilar jamoasiga qo'shiling.",
+  "lines": [
+   "Telegram guruhlari, forumlar.",
+   "Savol bering, boshqalarga yordam bering.",
+   "Tanishlar ish topishga yordam beradi."
+  ],
+  "caption": "Jamoa o'sishni tezlashtiradi. Qaysi guruhlarda borsiz?",
+  "tags": [
+   "#it",
+   "#dasturlash",
+   "#ituz",
+   "#kasb"
+  ]
+ },
+ {
+  "id": "h127",
+  "hook": "AI ko'nikmasi — yangi savodxonlik.",
+  "lines": [
+   "Bugun AI bilan ishlash ko'p kasbda foydali.",
+   "Har kuni bir oz sinab ko'ring.",
+   "Kim erta o'rgansa, ustunlikka ega."
+  ],
+  "caption": "AI savodxonligi. Siz AI'ni qancha vaqtdan beri ishlatasiz?",
+  "tags": [
+   "#suniyintellekt",
+   "#ai",
+   "#claude",
+   "#texnologiya"
+  ]
+ },
+ {
+  "id": "h128",
+  "hook": "Rejaning 80% i ham yaxshi natija.",
+  "lines": [
+   "Hammasini bajara olmasangiz — tashlamang.",
+   "80% bajarilish ham katta yutuq.",
+   "Keyingi hafta biroz yaxshilang."
+  ],
+  "caption": "Mukammal emas, izchil. Bu hafta rejaning necha foizini bajardingiz?",
+  "tags": [
+   "#intizom",
+   "#odatlar",
+   "#vaqt",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h129",
+  "hook": "Kunni rejasiz boshlamang.",
+  "lines": [
+   "Kechqurun ertangi 3 ta asosiy ishni yozing.",
+   "Ertalab birinchisini darhol boshlang.",
+   "3 ta ish bajarilsa — kun muvaffaqiyatli."
+  ],
+  "caption": "Kunlik reja: 3 ta asosiy ish. Ertangi 3 ta ishingiz nima?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h130",
+  "hook": "Ish joyini tartibga soling.",
+  "lines": [
+   "Toza stol — toza fikr.",
+   "Kerakli narsalar qo'l ostida bo'lsin.",
+   "O'rganish joyi faqat o'rganish uchun."
+  ],
+  "caption": "O'rganish joyi muhim. Siz qayerda o'rganasiz?",
+  "tags": [
+   "#organish",
+   "#bilim",
+   "#talim",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h131",
+  "hook": "Veb-sayt qanday ishlaydi?",
+  "lines": [
+   "HTML — sahifa tuzilishi.",
+   "CSS — ko'rinish va ranglar.",
+   "JavaScript — harakat va interaktivlik."
+  ],
+  "caption": "Veb asoslari: HTML, CSS, JS. Qaysi biridan boshladingiz?",
+  "tags": [
+   "#it",
+   "#dasturlash",
+   "#ituz",
+   "#kasb"
+  ]
+ },
+ {
+  "id": "h132",
+  "hook": "AI bilan matematika.",
+  "lines": [
+   "Masalani yechib berishni emas, bosqichma-bosqich tushuntirishni so'rang.",
+   "Har bir qadamni tekshiring.",
+   "O'xshash masalani o'zingiz yeching."
+  ],
+  "caption": "AI bilan matematika. Sizga qaysi mavzu qiyin?",
+  "tags": [
+   "#suniyintellekt",
+   "#ai",
+   "#claude",
+   "#texnologiya"
+  ]
+ },
+ {
+  "id": "h133",
+  "hook": "Ertangi kiyim va narsalarni kechqurun tayyorlang.",
+  "lines": [
+   "Ertalab qaror kamroq bo'lsa, kuch ko'p qoladi.",
+   "Kichik tayyorgarlik — katta farq.",
+   "Kunni tinch boshlang."
+  ],
+  "caption": "Kechqurungi tayyorgarlik. Siz ertangi kunga tayyorlanasizmi?",
+  "tags": [
+   "#intizom",
+   "#odatlar",
+   "#vaqt",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h134",
+  "hook": "Pul yo'q — o'rganmayman deyapsizmi?",
+  "lines": [
+   "Internetda bepul kurslar juda ko'p.",
+   "YouTube, bepul platformalar, hujjatlar.",
+   "Pul emas, vaqt va qat'iyat kerak."
+  ],
+  "caption": "Bepul o'rganish mumkin. Qaysi bepul manbadan foydalanasiz?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h135",
+  "hook": "Qiyinchilik — miya o'syapti degani.",
+  "lines": [
+   "Oson bo'lsa, yangi narsa o'rganmayapsiz.",
+   "Qiyin joyda to'xtamang, sekinlashing.",
+   "Tushunmagan joyni boshqa manbadan o'qing."
+  ],
+  "caption": "Qiyinlik o'sish belgisi. Hozir nima qiyin bo'lyapti?",
+  "tags": [
+   "#organish",
+   "#bilim",
+   "#talim",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h136",
+  "hook": "Portfolio 3 ta loyiha bilan.",
+  "lines": [
+   "Bitta oddiy, bitta o'rta, bitta murakkabroq.",
+   "Har biriga qisqa tavsif yozing.",
+   "Sifat soni ko'pligidan muhim."
+  ],
+  "caption": "Portfolio: 3 ta sifatli loyiha. Sizda nechta loyiha bor?",
+  "tags": [
+   "#it",
+   "#dasturlash",
+   "#ituz",
+   "#kasb"
+  ]
+ },
+ {
+  "id": "h137",
+  "hook": "AI bilan konspekt.",
+  "lines": [
+   "Uzun darsdan keyin qisqa xulosa so'rang.",
+   "O'z konspektingiz bilan solishtiring.",
+   "Farqlarni toping va to'ldiring."
+  ],
+  "caption": "AI bilan konspekt solishtirish. Siz konspekt yozasizmi?",
+  "tags": [
+   "#suniyintellekt",
+   "#ai",
+   "#claude",
+   "#texnologiya"
+  ]
+ },
+ {
+  "id": "h138",
+  "hook": "Ish va o'qishni ajrating.",
+  "lines": [
+   "O'qish vaqtida ish xabarlarini o'chiring.",
+   "Aniq chegaralar charchoqni kamaytiradi.",
+   "Har biriga to'liq e'tibor bering."
+  ],
+  "caption": "Chegaralar muhim. Siz ish va o'qishni qanday ajratasiz?",
+  "tags": [
+   "#intizom",
+   "#odatlar",
+   "#vaqt",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h139",
+  "hook": "Bir narsani oxirigacha yetkazing.",
+  "lines": [
+   "10 ta kurs boshlab, hech birini tugatmaslik — xato.",
+   "Bitta kursni oxirigacha o'ting.",
+   "Tugatilgan bitta ish o'nta boshlangandan qimmat."
+  ],
+  "caption": "Boshlaganni tugating. Qaysi kursni tugatmay qoldirgansiz?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h140",
+  "hook": "Bilimni ulashing.",
+  "lines": [
+   "O'rganganingizni post yoki video qiling.",
+   "Ulashish takrorlashning eng yaxshi usuli.",
+   "Bonus: sizni topishadi."
+  ],
+  "caption": "Bilim ulashganda ko'payadi. Siz o'rganganingizni ulashasizmi?",
+  "tags": [
+   "#organish",
+   "#bilim",
+   "#talim",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h141",
+  "hook": "IT'ga o'tish: ishni tashlamang.",
+  "lines": [
+   "Avval kechqurunlari o'rganing.",
+   "Birinchi daromad kelguncha asosiy ishni saqlang.",
+   "Xavfsiz o'tish — aqlli o'tish."
+  ],
+  "caption": "IT'ga o'tish bosqichma-bosqich. Siz hozir qayerda ishlaysiz?",
+  "tags": [
+   "#it",
+   "#dasturlash",
+   "#ituz",
+   "#kasb"
+  ]
+ },
+ {
+  "id": "h142",
+  "hook": "AI'ga rol bering.",
+  "lines": [
+   "\"Sen tajribali dasturchisan\" deb boshlang.",
+   "Rol javob uslubini o'zgartiradi.",
+   "Turli rollarni sinab ko'ring."
+  ],
+  "caption": "AI'ga rol berish. Qaysi rolni sinab ko'rgansiz?",
+  "tags": [
+   "#suniyintellekt",
+   "#ai",
+   "#claude",
+   "#texnologiya"
+  ]
+ },
+ {
+  "id": "h143",
+  "hook": "Kechikayotganingizni tan oling.",
+  "lines": [
+   "Muammo — kechiktirish emas, sababini bilmaslik.",
+   "Qo'rquvmi, charchoqmi, aniq emasmi?",
+   "Sababini topsangiz — yechim oson."
+  ],
+  "caption": "Kechiktirish sababini toping. Sizda asosiy sabab nima?",
+  "tags": [
+   "#intizom",
+   "#odatlar",
+   "#vaqt",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h144",
+  "hook": "Dangasalik emas, charchoq bo'lishi mumkin.",
+  "lines": [
+   "O'zingizni ayblashdan oldin dam oling.",
+   "Charchagan miya yomon o'rganadi.",
+   "Dam olish ham rejaning bir qismi."
+  ],
+  "caption": "Dam olish ham ish. Siz qanday dam olasiz?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h145",
+  "hook": "O'zingizni mukofotlang.",
+  "lines": [
+   "Haftalik maqsad bajarilsa — kichik sovg'a.",
+   "Miya mukofotni yaxshi ko'radi.",
+   "Lekin mukofot maqsaddan katta bo'lmasin."
+  ],
+  "caption": "Mukofot motivatsiya beradi. O'zingizni qanday mukofotlaysiz?",
+  "tags": [
+   "#organish",
+   "#bilim",
+   "#talim",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h146",
+  "hook": "Testlovchi — IT'ga kirish eshigi.",
+  "lines": [
+   "QA mutaxassisi dasturlardagi xatolarni topadi.",
+   "Diqqatli odamlar uchun mos.",
+   "Keyinroq avtomatlashtirishga o'tish mumkin."
+  ],
+  "caption": "QA testlash yo'nalishi. Siz diqqatli odammisiz?",
+  "tags": [
+   "#it",
+   "#dasturlash",
+   "#ituz",
+   "#kasb"
+  ]
+ },
+ {
+  "id": "h147",
+  "hook": "AI bilan blog uchun kontent.",
+  "lines": [
+   "G'oya va reja uchun AI'dan foydalaning.",
+   "Lekin ovoz va tajriba sizniki bo'lsin.",
+   "Odamlar haqiqiy hikoyani yaxshi ko'radi."
+  ],
+  "caption": "AI va shaxsiy blog. Siz blog yuritasizmi?",
+  "tags": [
+   "#suniyintellekt",
+   "#ai",
+   "#claude",
+   "#texnologiya"
+  ]
+ },
+ {
+  "id": "h148",
+  "hook": "30 kunlik sinov.",
+  "lines": [
+   "Bitta odatni 30 kun sinab ko'ring.",
+   "Har kuni belgilang.",
+   "30 kundan keyin davom ettirish-ettirmaslikni hal qiling."
+  ],
+  "caption": "30 kunlik sinov. Qaysi odatni sinaysiz?",
+  "tags": [
+   "#intizom",
+   "#odatlar",
+   "#vaqt",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h149",
+  "hook": "Natija ko'rinmasa, to'xtamang.",
+  "lines": [
+   "O'sish avval ko'rinmaydi, keyin birdan chiqadi.",
+   "Bambuk yillar ildiz otadi, keyin tez o'sadi.",
+   "Sabr — eng kam baholangan ko'nikma."
+  ],
+  "caption": "Natija kechikadi, lekin keladi. Qancha vaqtdan beri o'rganyapsiz?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h150",
+  "hook": "\"Hammasini tushundim\" — xavfli gap.",
+  "lines": [
+   "Tushundim degan joyda amalda sinab ko'ring.",
+   "Qila olmasangiz, hali tushunmagansiz.",
+   "Amaliyot haqiqiy imtihon."
+  ],
+  "caption": "Tushunish emas, qila olish. Oxirgi o'rganganingizni amalda sinadingizmi?",
+  "tags": [
+   "#organish",
+   "#bilim",
+   "#talim",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h151",
+  "hook": "Algoritm nima? Oddiy tushuntirish.",
+  "lines": [
+   "Algoritm — vazifani bajarish qadamlari.",
+   "Choy damlash ham algoritm.",
+   "Dasturlash — kompyuterga qadamlarni aytish."
+  ],
+  "caption": "Algoritm — qadamlar ketma-ketligi. Kundalik hayotingizda qanday algoritm bor?",
+  "tags": [
+   "#it",
+   "#dasturlash",
+   "#ituz",
+   "#kasb"
+  ]
+ },
+ {
+  "id": "h152",
+  "hook": "AI bilan qaror qabul qilish.",
+  "lines": [
+   "Variantlarning ijobiy va salbiy tomonlarini so'rang.",
+   "Siz o'ylamagan savollarni so'ratib oling.",
+   "Qaror baribir sizniki."
+  ],
+  "caption": "AI fikrlashga yordam beradi. Qaysi qaror ustida o'ylayapsiz?",
+  "tags": [
+   "#suniyintellekt",
+   "#ai",
+   "#claude",
+   "#texnologiya"
+  ]
+ },
+ {
+  "id": "h153",
+  "hook": "Dam olish kunini ham rejalang.",
+  "lines": [
+   "Dam olish — tiklanish vaqti.",
+   "Lekin butun kunni ekranda o'tkazmang.",
+   "Tabiat, do'stlar, sport."
+  ],
+  "caption": "Sifatli dam olish. Dam olish kuni nima qilasiz?",
+  "tags": [
+   "#intizom",
+   "#odatlar",
+   "#vaqt",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h154",
+  "hook": "Kundalik yozing: 3 ta savol.",
+  "lines": [
+   "Bugun nima o'rgandim?",
+   "Nima yaxshi bo'ldi?",
+   "Ertaga nimani yaxshilayman?"
+  ],
+  "caption": "Kunlik kundalik: 3 ta savol. Bugungi javoblaringiz qanday?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h155",
+  "hook": "Shovqindan qochib bo'lmasa — quloqchin.",
+  "lines": [
+   "Shovqinli joyda ham o'rganish mumkin.",
+   "Quloqchin va so'zsiz musiqa yordam beradi.",
+   "Asosiysi — boshlash."
+  ],
+  "caption": "Sharoit mukammal emas — baribir o'rganing. Sizga nima xalaqit beradi?",
+  "tags": [
+   "#organish",
+   "#bilim",
+   "#talim",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h156",
+  "hook": "Sertifikat yoki loyiha?",
+  "lines": [
+   "Sertifikat bilimni tasdiqlaydi.",
+   "Loyiha esa qila olishingizni ko'rsatadi.",
+   "Ikkalasi bo'lsa — yaxshi, tanlasangiz — loyiha."
+  ],
+  "caption": "Sertifikat va loyiha. Sizda qaysi biri bor?",
+  "tags": [
+   "#it",
+   "#dasturlash",
+   "#ituz",
+   "#kasb"
+  ]
+ },
+ {
+  "id": "h157",
+  "hook": "AI bilan ingliz tilida yozing.",
+  "lines": [
+   "O'zbekcha fikrni inglizcha yozib ko'ring.",
+   "AI'dan tuzatish va izoh so'rang.",
+   "Har kuni 3 ta gap."
+  ],
+  "caption": "AI bilan inglizcha yozish. Bugun inglizcha nima yozdingiz?",
+  "tags": [
+   "#suniyintellekt",
+   "#ai",
+   "#claude",
+   "#texnologiya"
+  ]
+ },
+ {
+  "id": "h158",
+  "hook": "Mayda ishlarni bir vaqtga yig'ing.",
+  "lines": [
+   "Xabarlarga kuniga 2-3 marta javob bering.",
+   "Har daqiqada tekshirish diqqatni buzadi.",
+   "Katta ishlarga uzun bloklar qoldiring."
+  ],
+  "caption": "Mayda ishlarni yig'ish. Siz xabarlarni qancha tekshirasiz?",
+  "tags": [
+   "#intizom",
+   "#odatlar",
+   "#vaqt",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h159",
+  "hook": "Ilhom beruvchi odamlarni kuzating.",
+  "lines": [
+   "Siz bo'lishni xohlagan odamlarni toping.",
+   "Ular qanday boshlaganini o'rganing.",
+   "Ko'r-ko'rona emas, g'oya uchun kuzating."
+  ],
+  "caption": "Ilhom manbangiz kim? Kimni kuzatasiz?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h160",
+  "hook": "Yangi so'zlarni darhol ishlating.",
+  "lines": [
+   "Yangi atama o'rgandingizmi? Gapda ishlating.",
+   "Ishlatilgan bilim eslab qolinadi.",
+   "Bugun 3 ta yangi so'z ishlating."
+  ],
+  "caption": "O'rganganni ishlating. Bugun qanday yangi so'z o'rgandingiz?",
+  "tags": [
+   "#organish",
+   "#bilim",
+   "#talim",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h161",
+  "hook": "Ingliz tilida dokumentatsiya o'qing.",
+  "lines": [
+   "Rasmiy hujjat — eng aniq manba.",
+   "Avval sekin, tarjimon bilan.",
+   "Vaqt o'tib tushunish osonlashadi."
+  ],
+  "caption": "Dokumentatsiya o'qish ko'nikmasi. Siz o'qiganmisiz?",
+  "tags": [
+   "#it",
+   "#dasturlash",
+   "#ituz",
+   "#kasb"
+  ]
+ },
+ {
+  "id": "h162",
+  "hook": "AI chalg'itishi ham mumkin.",
+  "lines": [
+   "Uzoq suhbatda maqsaddan adashmang.",
+   "Avval savolingizni yozib qo'ying.",
+   "Javob olganda — amalga o'ting."
+  ],
+  "caption": "AI bilan diqqat. Siz AI bilan qancha vaqt o'tkazasiz?",
+  "tags": [
+   "#suniyintellekt",
+   "#ai",
+   "#claude",
+   "#texnologiya"
+  ]
+ },
+ {
+  "id": "h163",
+  "hook": "O'zingizni kechiring va davom eting.",
+  "lines": [
+   "Bir kun o'tkazib yubordingizmi? Bu normal.",
+   "O'zingizni ayblash vaqt oladi.",
+   "Ertaga qaytadan boshlang."
+  ],
+  "caption": "O'zingizga mehribon bo'ling. Siz o'zingizni qanday ruhlantirasiz?",
+  "tags": [
+   "#intizom",
+   "#odatlar",
+   "#vaqt",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h164",
+  "hook": "\"Bilmayman\" deyish uyat emas.",
+  "lines": [
+   "\"Bilmayman, lekin o'rganaman\" — kuchli gap.",
+   "Savol bergan odam tezroq o'sadi.",
+   "Hamma bilimli odam bir vaqtlar bilmagan."
+  ],
+  "caption": "Savol berishdan qo'rqmang. Oxirgi marta nima so'radingiz?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h165",
+  "hook": "O'rganish — marafon, sprint emas.",
+  "lines": [
+   "Birinchi haftada hamma narsani qilishga urinmang.",
+   "Kuchingizni teng taqsimlang.",
+   "Yiqilmasdan uzoq yuguring."
+  ],
+  "caption": "Marafon tezligi. Siz qancha vaqtdan beri o'rganyapsiz?",
+  "tags": [
+   "#organish",
+   "#bilim",
+   "#talim",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h166",
+  "hook": "Kod yozishda dam olishni unutmang.",
+  "lines": [
+   "Ko'z uchun: har 20 daqiqada uzoqqa qarang.",
+   "Bel uchun: har soatda turing.",
+   "Sog'lom tana uzoq o'rganadi."
+  ],
+  "caption": "Kompyuter oldida sog'liq. Siz qancha vaqt ketma-ket o'tirasiz?",
+  "tags": [
+   "#it",
+   "#dasturlash",
+   "#ituz",
+   "#kasb"
+  ]
+ },
+ {
+  "id": "h167",
+  "hook": "AI bilan birinchi dasturingiz.",
+  "lines": [
+   "\"Menga oddiy dastur yozishni o'rgat\".",
+   "Har bir qatorni tushuntirishni so'rang.",
+   "Keyin o'zingiz o'zgartirib ko'ring."
+  ],
+  "caption": "AI bilan dasturlash boshlanishi. Birinchi dasturingiz nima bo'ladi?",
+  "tags": [
+   "#suniyintellekt",
+   "#ai",
+   "#claude",
+   "#texnologiya"
+  ]
+ },
+ {
+  "id": "h168",
+  "hook": "Kuningizni 3 ta blokka bo'ling.",
+  "lines": [
+   "Ish bloki, o'qish bloki, dam bloki.",
+   "Har blokda bitta turdagi ish.",
+   "Bu tartib miyani charchatmaydi."
+  ],
+  "caption": "Kun bloklari. Kuningiz qanday taqsimlangan?",
+  "tags": [
+   "#intizom",
+   "#odatlar",
+   "#vaqt",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h169",
+  "hook": "Haftada bir kun o'zingizga hisob bering.",
+  "lines": [
+   "Yakshanba kechqurun 10 daqiqa.",
+   "Nima bajarildi, nima qoldi?",
+   "Keyingi haftaga bitta tuzatish."
+  ],
+  "caption": "Haftalik hisob — o'sish siri. Bu hafta nimani bajardingiz?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h170",
+  "hook": "IT'da ham yumshoq ko'nikmalar kerak.",
+  "lines": [
+   "Aniq yozish va tushuntirish.",
+   "Jamoada ishlash.",
+   "Muddatga rioya qilish."
+  ],
+  "caption": "Yumshoq ko'nikmalar ham muhim. Sizning kuchli tomoningiz qaysi?",
+  "tags": [
+   "#it",
+   "#dasturlash",
+   "#ituz",
+   "#kasb"
+  ]
+ },
+ {
+  "id": "h171",
+  "hook": "AI bilan kitob xulosasi.",
+  "lines": [
+   "Kitobni o'qib bo'lgach, AI bilan muhokama qiling.",
+   "Asosiy g'oyalarni ayting va savol bering.",
+   "Bu o'qiganni mustahkamlaydi."
+  ],
+  "caption": "Kitobni AI bilan muhokama qilish. Oxirgi o'qigan kitobingiz?",
+  "tags": [
+   "#suniyintellekt",
+   "#ai",
+   "#claude",
+   "#texnologiya"
+  ]
+ },
+ {
+  "id": "h172",
+  "hook": "Intizom erkinlik beradi.",
+  "lines": [
+   "Tartibli odamda ko'proq bo'sh vaqt qoladi.",
+   "Ishlar vaqtida tugaydi.",
+   "Stress kamayadi."
+  ],
+  "caption": "Intizom va erkinlik. Siz tartibli odammisiz?",
+  "tags": [
+   "#intizom",
+   "#odatlar",
+   "#vaqt",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h173",
+  "hook": "180 kun — yangi hayot uchun yetarli.",
+  "lines": [
+   "Kuniga 1 soat, 180 kun — 180 soat.",
+   "Bu yangi kasb asoslari uchun yetarli boshlang'ich.",
+   "Bugun birinchi kun bo'lsin."
+  ],
+  "caption": "180 kunlik sinov. Siz bugun boshlaysizmi?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h174",
+  "hook": "6 oyda nimaga erishish mumkin?",
+  "lines": [
+   "Bitta yo'nalish asoslari.",
+   "2-3 ta kichik loyiha.",
+   "Natija har kimda har xil — muntazamlik hal qiladi."
+  ],
+  "caption": "6 oylik reja. Siz 6 oyda nimani o'rganmoqchisiz?",
+  "tags": [
+   "#it",
+   "#dasturlash",
+   "#ituz",
+   "#kasb"
+  ]
+ },
+ {
+  "id": "h175",
+  "hook": "Bugun nima qildingiz — o'lchang.",
+  "lines": [
+   "O'lchanadigan narsa yaxshilanadi.",
+   "O'qilgan bet, yechilgan masala, o'rganilgan so'z.",
+   "Raqamlar o'sishni ko'rsatadi."
+  ],
+  "caption": "O'sishni o'lchang. Bugun nechta narsa qildingiz?",
+  "tags": [
+   "#intizom",
+   "#odatlar",
+   "#vaqt",
+   "#rivojlanish"
+  ]
+ },
+ {
+  "id": "h176",
+  "hook": "Yarim yo'lda to'xtamang.",
+  "lines": [
+   "Qiyin joy — ko'pchilik to'xtaydigan joy.",
+   "Siz davom etsangiz — oldinga chiqasiz.",
+   "Bugun yana bir qadam."
+  ],
+  "caption": "Davom eting. Hozir qaysi bosqichdasiz?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h177",
+  "hook": "Siz o'ylagandan kuchlisiz.",
+  "lines": [
+   "Ko'p qiyinchiliklarni allaqachon yengdingiz.",
+   "Ularni eslang — bu dalil.",
+   "Yangi maqsad ham yengiladi."
+  ],
+  "caption": "Kuchingizni eslang. Qaysi qiyinchilikni yenggansiz?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h178",
+  "hook": "Kimgadir ilhom bo'ling.",
+  "lines": [
+   "Sizning o'sishingizni kimdir kuzatyapti.",
+   "Birovga yordam bering — o'zingiz ham o'sasiz.",
+   "Bilim ulashganda ko'payadi."
+  ],
+  "caption": "Ilhom manbai bo'ling. Bugun kimga yordam berdingiz?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h179",
+  "hook": "Orqaga qarang: qancha yo'l bosdingiz?",
+  "lines": [
+   "Bir oy oldingi o'zingizni eslang.",
+   "Nimalar o'zgardi?",
+   "O'sishni ko'rish — davom etish uchun kuch."
+  ],
+  "caption": "O'sishingizni ko'ring. Bir oyda nima o'zgardi?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ },
+ {
+  "id": "h180",
+  "hook": "180 kun tugadi — endi nima?",
+  "lines": [
+   "O'rganish yo'li tugamaydi.",
+   "Yangi maqsad qo'ying.",
+   "Va o'z tajribangizni boshqalarga ulashing."
+  ],
+  "caption": "Yangi bosqich. Keyingi maqsadingiz nima?",
+  "tags": [
+   "#ozgarish",
+   "#motivatsiya",
+   "#rivojlanish",
+   "#maqsad"
+  ]
+ }
 ]

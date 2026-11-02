@@ -27,10 +27,17 @@ def main():
         return
 
     scripts = json.loads((HERE / "scripts.json").read_text(encoding="utf-8"))
-    made = sum(1 for q in queue if q.get("auto"))
-    script = scripts[made % len(scripts)]
-    rnd = made // len(scripts) + 1
-    pid = script["id"] if rnd == 1 else f"{script['id']}-{rnd}"
+    # Navbatda hali ishlatilmagan birinchi ssenariy (h001 -> h180). Hammasi tugasa, boshidan aylanadi.
+    used = {q["id"] for q in queue if q.get("auto")}
+    script, pid = None, None
+    for rnd in range(1, 100):
+        for s in scripts:
+            cand = s["id"] if rnd == 1 else f"{s['id']}-{rnd}"
+            if cand not in used:
+                script, pid = s, cand
+                break
+        if script:
+            break
 
     rel = f"reels/daily/out/{pid}.mp4"
     info = make_video.render(script, ROOT / rel)

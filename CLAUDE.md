@@ -2,10 +2,10 @@
 
 ## Foydalanuvchi
 - O'zbek tilida yozadi. Javoblar QISQA bo'lsin.
-- Maqsad: Instagram haqida kanal yuritish va o'zbek bloggerlar trendlarini kuzatish. Kanal kontentini Claude yasaydi (matnli reels, caption, teglar), akkauntni foydalanuvchi o'zi ochadi.
+- Maqsad (2026-11-02 dan): o'rganish va hayotini o'zgartirmoqchi bo'lgan hamma uchun kanal (o'rganish, IT, AI, intizom, kasb, sog'liq, til). Kanal kontentini Claude yasaydi (matnli reels, caption, teglar), akkauntni foydalanuvchi o'zi ochadi.
 
 ## Doimiy kontent qoidalari (kelishilgan, har doim amal qilinadi)
-- Bitta yo'nalish: Instagram haqida.
+- Bitta yo'nalish: o'rganish va hayotni o'zgartirish (hamma uchun).
 - Videoning birinchi 2 soniyasida kuchli ilgak.
 - Video qisqa: 7-20 soniya.
 - Caption boshida kalit so'z, oxirida savol.
@@ -25,7 +25,7 @@
 - `agent/analyze.py`: tahlil. `agent/report.py`: hisobot matni. `agent/notify.py`: Telegram/email.
 - `tests/`: sinovlar va sun'iy namuna ma'lumot.
 - `reels/`: video generator (`make_reel.py`, `build_all.py`).
-- `reels/daily/`: kunlik avtomatik Reels. `usniy.py` (vektor qahramon Usniy), `make_video.py` (ovoz edge-tts SardorNeural + musiqa), `scripts.json` (30 ta ssenariy), `build_today.py` (navbatga qo'shadi). `daily.yml` har kuni 16:00 UTC (19:00 Moskva) yasaydi va joylaydi.
+- `reels/daily/`: kunlik avtomatik Reels. `usniy.py` (vektor qahramon Usniy), `make_video.py` (ovoz edge-tts SardorNeural + musiqa), `scripts.json` (180 ta ssenariy h001-h180, kuniga 1 ta, ishlatilmagan birinchisi tanlanadi; eski 30 ta Instagram ssenariysi `scripts_instagram.json`da), `build_today.py` (navbatga qo'shadi). `daily.yml` har kuni 16:00 UTC (19:00 Moskva) yasaydi va joylaydi.
 
 ## Yaxshilash g'oyalari (navbat)
 1. Birinchi haqiqiy ishga tushirishdan keyin Graph API/Trends xatolarini tuzatish.
@@ -38,3 +38,4 @@
 - 2026-10-21: loyiha yaratildi, analizator namuna ma'lumotda sinaldi.
 - 2026-10-22: Graph API olib tashlandi; Windsor orqali tahlil, joylash va Telegram birlashtirildi.
 - 2026-10-30: kunlik avtomatik video: vektor qahramon Usniy, 30 ssenariy, 19:00 Moskva vaqtida yasash+joylash.
+- 2026-11-02: yo'nalish o'zgardi: o'rganish/hayotni o'zgartirish, 180 ta ssenariy (6 oy, kuniga 1 ta). Oxirgi eski post: d03 (2026-11-01).

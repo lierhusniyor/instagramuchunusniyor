@@ -195,7 +195,7 @@ def badge_layer():
     layer = Image.new("RGBA", (W, 140), (0, 0, 0, 0))
     d = ImageDraw.Draw(layer)
     f = font(42)
-    txt = "INSTAGRAM SIRLARI"
+    txt = "O‘RGAN VA O‘ZGAR"
     tw = d.textlength(txt, font=f)
     x = (W - tw) / 2
     d.rounded_rectangle((x - 34, 40, x + tw + 34, 112), radius=36, fill=(255, 255, 255, 40))
