@@ -20,11 +20,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-color-emoji
       - run: pip install -r requirements.txt pillow numpy edge-tts
       - name: Testlar
         run: python tests/make_sample.py && python -m unittest discover -s tests
-      - name: Bugungi videoni yasash (Usniy qahramoni)
+      - name: Bugungi videoni yasash (180 kun uslubi)
         run: python reels/daily/build_today.py
       - name: Videoni ochiq havolaga chiqarish (push)
         run: |

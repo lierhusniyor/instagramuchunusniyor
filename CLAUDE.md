@@ -25,7 +25,7 @@
 - `agent/analyze.py`: tahlil. `agent/report.py`: hisobot matni. `agent/notify.py`: Telegram/email.
 - `tests/`: sinovlar va sun'iy namuna ma'lumot.
 - `reels/`: video generator (`make_reel.py`, `build_all.py`).
-- `reels/daily/`: kunlik avtomatik Reels. `usniy.py` (vektor qahramon Usniy), `make_video.py` (ovoz edge-tts SardorNeural + musiqa), `scripts.json` (180 ta ssenariy h001-h180, kuniga 1 ta, ishlatilmagan birinchisi tanlanadi; eski 30 ta Instagram ssenariysi `scripts_instagram.json`da), `build_today.py` (navbatga qo'shadi). `daily.yml` har kuni 16:00 UTC (19:00 Moskva) yasaydi va joylaydi.
+- `reels/daily/`: kunlik avtomatik Reels. `make_video.py` ("180 kun" uslubi Axror prezentatsiyasidan: qorong'i fon #15141B, #FF6A2B, #3FC8E8, krem; Oswald/Rubik/JetBrains Mono; sahnalar: terminal+ilgak, [TIZIM] oynasi, krem karta, to'q sariq bayonot, konfetti final; "KUN N/180" progress; qahramon yo'q; ovoz edge-tts SardorNeural + musiqa), `scripts.json` (180 ta ssenariy h001-h180, kuniga 1 ta, ishlatilmagan birinchisi tanlanadi; eski 30 ta Instagram ssenariysi `scripts_instagram.json`da), `build_today.py` (navbatga qo'shadi). `daily.yml` har kuni 16:00 UTC (19:00 Moskva) yasaydi va joylaydi.
 
 ## Yaxshilash g'oyalari (navbat)
 1. Birinchi haqiqiy ishga tushirishdan keyin Graph API/Trends xatolarini tuzatish.
@@ -39,3 +39,4 @@
 - 2026-10-22: Graph API olib tashlandi; Windsor orqali tahlil, joylash va Telegram birlashtirildi.
 - 2026-10-30: kunlik avtomatik video: vektor qahramon Usniy, 30 ssenariy, 19:00 Moskva vaqtida yasash+joylash.
 - 2026-11-02: yo'nalish o'zgardi: o'rganish/hayotni o'zgartirish, 180 ta ssenariy (6 oy, kuniga 1 ta). Oxirgi eski post: d03 (2026-11-01).
+- 2026-11-02: Usniy qahramoni olib tashlandi (foydalanuvchiga yoqmadi); videolar Axror prezentatsiyasi uslubida qayta yasaldi, hamma uchun motivatsiya.
