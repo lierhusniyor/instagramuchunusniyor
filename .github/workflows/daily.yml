@@ -20,7 +20,19 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-color-emoji
+      - name: ffmpeg o'rnatish (apt, 3 urinish)
+        id: apt
+        continue-on-error: true
+        timeout-minutes: 15
+        run: |
+          for i in 1 2 3; do
+            sudo apt-get update -qq && sudo apt-get install -y -qq --fix-missing ffmpeg fonts-noto-color-emoji && exit 0
+            echo "apt xato, $i-urinish"; sleep 30
+          done
+          exit 1
+      - name: ffmpeg zaxira (apt ishlamasa)
+        if: steps.apt.outcome == 'failure'
+        uses: FedericoCarboni/setup-ffmpeg@v3
       - run: pip install -r requirements.txt pillow numpy edge-tts
       - name: Testlar
         run: python tests/make_sample.py && python -m unittest discover -s tests

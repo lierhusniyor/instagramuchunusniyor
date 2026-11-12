@@ -40,3 +40,4 @@
 - 2026-10-30: kunlik avtomatik video: vektor qahramon Usniy, 30 ssenariy, 19:00 Moskva vaqtida yasash+joylash.
 - 2026-11-02: yo'nalish o'zgardi: o'rganish/hayotni o'zgartirish, 180 ta ssenariy (6 oy, kuniga 1 ta). Oxirgi eski post: d03 (2026-11-01).
 - 2026-11-02: Usniy qahramoni olib tashlandi (foydalanuvchiga yoqmadi); videolar Axror prezentatsiyasi uslubida qayta yasaldi, hamma uchun motivatsiya.
+- 2026-11-12: 11-noyabr post joylanmadi (Ubuntu mirror DNS xatosi, ffmpeg o'rnatilmadi). daily.yml: apt 3 marta qayta urinadi, bo'lmasa setup-ffmpeg zaxirasi.
