@@ -1,0 +1,36 @@
+name: Telegram rasm
+
+# notify/photos/ dagi PNG rasmlar (10 tagacha) albom qilib Telegram botga yuboriladi.
+on:
+  push:
+    paths:
+      - "notify/photos/**"
+  workflow_dispatch:
+
+jobs:
+  rasm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Albomni yuborish
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          cd notify/photos
+          cap=$(cat caption.txt 2>/dev/null || echo "")
+          args=(); media="["; i=0
+          for f in $(ls *.png | sort | head -10); do
+            i=$((i+1)); args+=(-F "p$i=@$f")
+            [ $i -gt 1 ] && media+=","
+            if [ $i -eq 1 ]; then
+              media+=$(jq -nc --arg c "$cap" --arg m "attach://p$i" '{type:"photo",media:$m,caption:$c}')
+            else
+              media+="{\"type\":\"photo\",\"media\":\"attach://p$i\"}"
+            fi
+          done
+          media+="]"
+          curl --fail --silent --show-error \
+            "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMediaGroup" \
+            -F "chat_id=${TELEGRAM_CHAT_ID}" -F "media=${media}" "${args[@]}" > /dev/null
+          echo "Yuborildi: $i ta rasm"
